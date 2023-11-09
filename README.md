@@ -2,7 +2,7 @@
 
 This is created by VCL318!
 
-A new update.
+hello world!
 
 ## Recommended IDE Setup
 
