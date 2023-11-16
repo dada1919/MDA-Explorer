@@ -9,7 +9,10 @@
     <el-container>
       <el-aside width="200px"></el-aside>
       <el-container>
-        <el-header>Header</el-header>
+        <el-header><div class="right-align">
+    <el-input placeholder="搜索..."></el-input>
+  </div>
+</el-header>
         <el-main><el-container><div class="element-with-border1" >这是一个有边框的元素</div>
           <div class="element-with-border2">这是一个有边框的元素</div></el-container>
         
@@ -42,23 +45,44 @@ export default {
 };
 </script>
 <style>
+.right-align {
+  float: right;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+
+.background {
+  background-color: #ffffff;
+  padding: 10px;
+  width: 530px;
+  height: 200px;
+}
 .el-container {
     background-color: #D3DCE6;
     color: #333;
     text-align: center;
-    line-height: 260px;
+    line-height: 200px;
     width: 1200px;
   }
 
 .element-with-border1 {
   border: 1px solid #090808;
-  padding: 10px;
+  /* padding: 10px; */
   width: 530px;
 }
 .element-with-border2 {
   border: 1px solid #090808;
   padding: 10px;
-  width: 385px;
+  width: 405px;
 }
 .element-with-border3 {
   border: 1px solid #090808;
@@ -73,7 +97,7 @@ export default {
 .el-header, .el-footer {
     background-color: #b9b3d1;
     color: #333;
-    text-align: center;
+    
     line-height: 60px;
     width: 1000px;
   }
