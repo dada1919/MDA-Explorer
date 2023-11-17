@@ -9,8 +9,11 @@
     <el-container>
       <el-aside width="200px"></el-aside>
       <el-container>
-        <el-header><div class="right-align">
-    <el-input placeholder="搜索..."></el-input>
+
+        <el-header>
+          <div class="header-content">
+            <span>MDA-EXPLOER</span><div class="right-align">
+    <el-input placeholder="搜索..."></el-input></div>
   </div>
 </el-header>
         <el-main><el-container><div class="element-with-border1" >这是一个有边框的元素</div>
@@ -45,6 +48,14 @@ export default {
 };
 </script>
 <style>
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+.header-content span {
+  margin-right: 600px;
+}
 .right-align {
   float: right;
 }
