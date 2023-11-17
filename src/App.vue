@@ -1,23 +1,19 @@
-<script>
-import HelloWorld from './components/HelloWorld.vue';
-export default {
-  name: 'App',
-  components: {
-    HelloWorld,
-  },
-};
+<script setup>
+import TopHeader from './components/TopHeader.vue'
+import MainDashboard from './views/MainDashboard.vue'
 </script>
 
 <template>
-  
-  <div id="app">
-  
-    <HelloWorld />
-  </div>
-
- 
+  <header class="header">
+    <TopHeader />
+  </header>
+  <main class="main">
+    <MainDashboard />
+  </main>
 </template>
 
 <style scoped>
-
+.main {
+  @apply flex-1 overflow-hidden;
+}
 </style>
