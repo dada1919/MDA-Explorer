@@ -1,13 +1,18 @@
 <template>
   <div class="dashboard-container">
-    <div class="dashboard__item chart prediction-view">This is Prediction Space</div>
+    <div class="dashboard__item chart prediction-view">
+      This is Prediction Space
+      <HeatMap style="padding-top: 2%;"></HeatMap>
+    </div>
     <div class="dashboard__item result-view">This is Prediction Result</div>
     <div class="dashboard__item chart explanation-view">This is Explanation</div>
     <div class="dashboard__item information-view">This is Relevant Information</div>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import HeatMap from './HeatMap.vue';
+</script>
 
 <style scoped>
 .dashboard-container {
