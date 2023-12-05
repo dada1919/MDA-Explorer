@@ -4,16 +4,18 @@
       This is Prediction Space
       <HeatMap style="padding-top: 2%;"></HeatMap>
     </div>
-    <div class="dashboard__item result-view">This is Prediction Result</div>
-    <div class="dashboard__item chart explanation-view">
-      This is Explanation
-      <NodeLinkGraph></NodeLinkGraph>
-    </div>
+
     <div class="dashboard__item result-view">
       This is Prediction Result
       <MyTable style="padding-top: 2%;"></MyTable>
     </div>
-    <div class="dashboard__item chart explanation-view">This is Explanation</div>
+    
+    <div class="dashboard__item chart explanation-view">
+      This is Explanation
+      <NodeLinkGraph></NodeLinkGraph>
+    </div>
+    
+    <!-- <div class="dashboard__item chart explanation-view">This is Explanation</div> -->
     <div class="dashboard__item information-view">This is Relevant Information</div>
   </div>
 </template>
