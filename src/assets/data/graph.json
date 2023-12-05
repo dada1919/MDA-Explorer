@@ -1,0 +1,226 @@
+{
+    "nodes": [
+        {
+            "ID": "Kodak",
+            "type": "P"
+        },
+        {
+            "ID": "Huawei",
+            "type": "M"
+        },
+        {
+            "ID": "Inventec",
+            "type": "D"
+        },
+        {
+            "ID": "Amazon",
+            "type": "P"
+        },
+        {
+            "ID": "LG",
+            "type": "M"
+        },
+        {
+            "ID": "Motorola",
+            "type": "D"
+        },
+        {
+            "ID": "HTC",
+            "type": "P"
+        },
+        {
+            "ID": "Oracle",
+            "type": "M"
+        },
+        {
+            "ID": "Sony",
+            "type": "D"
+        },
+        {
+            "ID": "Ericsson",
+            "type": "P"
+        },
+        {
+            "ID": "RIM",
+            "type": "M"
+        },
+        {
+            "ID": "Microsoft",
+            "type": "D"
+        },
+        {
+            "ID": "Google",
+            "type": "P"
+        },
+        {
+            "ID": "Foxconn",
+            "type": "M"
+        },
+        {
+            "ID": "Nokia",
+            "type": "D"
+        },
+        {
+            "ID": "ZTE",
+            "type": "P"
+        },
+        {
+            "ID": "Apple",
+            "type": "M"
+        },
+        {
+            "ID": "Barnes & Noble",
+            "type": "D"
+        },
+        {
+            "ID": "Qualcomm",
+            "type": "P"
+        },
+        {
+            "ID": "Samsung",
+            "type": "M"
+        }
+    ],
+    "edges": [
+        {
+            "source": 11,
+            "target": 3,
+            "type": "D-P"
+        },
+        {
+            "source": 11,
+            "target": 6,
+            "type": "D-P"
+        },
+        {
+            "source": 19,
+            "target": 16,
+            "type": "M-M"
+        },
+        {
+            "source": 5,
+            "target": 16,
+            "type": "D-M"
+        },
+        {
+            "source": 14,
+            "target": 16,
+            "type": "D-M"
+        },
+        {
+            "source": 6,
+            "target": 16,
+            "type": "P-M"
+        },
+        {
+            "source": 0,
+            "target": 16,
+            "type": "P-M"
+        },
+        {
+            "source": 11,
+            "target": 17,
+            "type": "D-D"
+        },
+        {
+            "source": 11,
+            "target": 13,
+            "type": "D-M"
+        },
+        {
+            "source": 7,
+            "target": 12,
+            "type": "M-P"
+        },
+        {
+            "source": 16,
+            "target": 6,
+            "type": "M-P"
+        },
+        {
+            "source": 11,
+            "target": 2,
+            "type": "D-D"
+        },
+        {
+            "source": 19,
+            "target": 0,
+            "type": "M-P"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "type": "M-P"
+        },
+        {
+            "source": 10,
+            "target": 0,
+            "type": "M-P"
+        },
+        {
+            "source": 8,
+            "target": 4,
+            "type": "D-M"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "type": "P-M"
+        },
+        {
+            "source": 16,
+            "target": 14,
+            "type": "M-D"
+        },
+        {
+            "source": 18,
+            "target": 14,
+            "type": "P-D"
+        },
+        {
+            "source": 16,
+            "target": 5,
+            "type": "M-D"
+        },
+        {
+            "source": 11,
+            "target": 5,
+            "type": "D-D"
+        },
+        {
+            "source": 5,
+            "target": 11,
+            "type": "D-D"
+        },
+        {
+            "source": 1,
+            "target": 15,
+            "type": "M-P"
+        },
+        {
+            "source": 9,
+            "target": 15,
+            "type": "P-P"
+        },
+        {
+            "source": 0,
+            "target": 19,
+            "type": "P-M"
+        },
+        {
+            "source": 16,
+            "target": 19,
+            "type": "M-M"
+        },
+        {
+            "source": 0,
+            "target": 10,
+            "type": "P-M"
+        },
+        {
+            "source": 14,
+            "target": 18,
+            "type": "D-P"
+        }
+    ]
+}

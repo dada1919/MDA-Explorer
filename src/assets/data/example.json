@@ -1,0 +1,179 @@
+{
+    "D000071698": {
+        "pred": [
+            0.583286464214325
+        ],
+        "nodes": [
+            {
+                "type": "M",
+                "ID": "MI0000459",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 84530,
+                "name": "serine/arginine repetitive matrix 4",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 90204,
+                "name": "zinc finger SWIM-type containing 1",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 79905,
+                "name": "transmembrane channel like 7",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 8932,
+                "name": "methyl-CpG binding domain protein 2",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 90161,
+                "name": "heparan sulfate 6-O-sulfotransferase 2",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D001327",
+                "name": "Autoimmune Diseases",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D000071698",
+                "name": "Latent Autoimmune Diabetes in Adults",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D003920",
+                "name": "Diabetes Mellitus",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 60468,
+                "name": "BTB domain and CNC homolog 2",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 3630,
+                "name": "insulin",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 6311,
+                "name": "ataxin 2",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 10019,
+                "name": "SH2B adaptor protein 3",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 26191,
+                "name": "protein tyrosine phosphatase non-receptor type 22",
+                "level": 0
+            }
+        ],
+        "edges": [
+            {
+                "source": "MI0000459",
+                "target": "MI0000459",
+                "type": "M-M",
+                "value": "1.0000"
+            },
+            {
+                "source": "MI0000459",
+                "target": 84530,
+                "type": "M-P",
+                "value": "0.2185"
+            },
+            {
+                "source": "MI0000459",
+                "target": 90204,
+                "type": "M-P",
+                "value": "0.1798"
+            },
+            {
+                "source": "MI0000459",
+                "target": 79905,
+                "type": "M-P",
+                "value": "0.1232"
+            },
+            {
+                "source": "MI0000459",
+                "target": 8932,
+                "type": "M-P",
+                "value": "0.0659"
+            },
+            {
+                "source": "MI0000459",
+                "target": 90161,
+                "type": "M-P",
+                "value": "0.0594"
+            },
+            {
+                "source": "D000071698",
+                "target": "D001327",
+                "type": "D-D",
+                "value": "0.5080"
+            },
+            {
+                "source": "D000071698",
+                "target": "D000071698",
+                "type": "D-D",
+                "value": "0.2939"
+            },
+            {
+                "source": "D000071698",
+                "target": "D003920",
+                "type": "D-D",
+                "value": "0.1981"
+            },
+            {
+                "source": "D000071698",
+                "target": 60468,
+                "type": "D-P",
+                "value": "0.6467"
+            },
+            {
+                "source": "D000071698",
+                "target": 3630,
+                "type": "D-P",
+                "value": "0.2687"
+            },
+            {
+                "source": "D000071698",
+                "target": 6311,
+                "type": "D-P",
+                "value": "0.0349"
+            },
+            {
+                "source": "D000071698",
+                "target": 10019,
+                "type": "D-P",
+                "value": "0.0252"
+            },
+            {
+                "source": "D000071698",
+                "target": 26191,
+                "type": "D-P",
+                "value": "0.0245"
+            }
+        ]
+    }
+}
