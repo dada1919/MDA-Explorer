@@ -1,0 +1,353 @@
+{
+    "D000071698": {
+        "pred": [
+            0.583286464214325
+        ],
+        "nodes": [
+            {
+                "type": "M",
+                "ID": "MI0000459",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 23096,
+                "name": "IQ motif and Sec7 domain ArfGEF 2",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 7485,
+                "name": "guided entry of tail-anchored proteins factor 1",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 4528,
+                "name": "mitochondrial translational initiation factor 2",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 65018,
+                "name": "PTEN induced kinase 1",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 1738,
+                "name": "dihydrolipoamide dehydrogenase",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D003920",
+                "name": "Diabetes Mellitus",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D001327",
+                "name": "Autoimmune Diseases",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D000071698",
+                "name": "Latent Autoimmune Diabetes in Adults",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 26191,
+                "name": "protein tyrosine phosphatase non-receptor type 22",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 10019,
+                "name": "SH2B adaptor protein 3",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 3630,
+                "name": "insulin",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 6311,
+                "name": "ataxin 2",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 60468,
+                "name": "BTB domain and CNC homolog 2",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D000224",
+                "name": "Addison Disease",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D020274",
+                "name": "Autoimmune Diseases of the Nervous System",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D009879",
+                "name": "Ophthalmia, Sympathetic",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D000077733",
+                "name": "Immunoglobulin G4-Related Disease",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D007154",
+                "name": "Immune System Diseases",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D062027",
+                "name": "Linear IgA Bullous Dermatosis",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D003921",
+                "name": "Diabetes Mellitus, Experimental",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D056731",
+                "name": "Donohue Syndrome",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D003922",
+                "name": "Diabetes Mellitus, Type 1",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D044882",
+                "name": "Glucose Metabolism Disorders",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D003924",
+                "name": "Diabetes Mellitus, Type 2",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D011236",
+                "name": "Prediabetic State",
+                "level": 0
+            }
+        ],
+        "edges": [
+            {
+                "source": "MI0000459",
+                "target": "MI0000459",
+                "type": "M-M",
+                "value": "1.0000"
+            },
+            {
+                "source": "MI0000459",
+                "target": 23096,
+                "type": "M-P",
+                "value": "0.2183"
+            },
+            {
+                "source": "MI0000459",
+                "target": 7485,
+                "type": "M-P",
+                "value": "0.1800"
+            },
+            {
+                "source": "MI0000459",
+                "target": 4528,
+                "type": "M-P",
+                "value": "0.1223"
+            },
+            {
+                "source": "MI0000459",
+                "target": 65018,
+                "type": "M-P",
+                "value": "0.0659"
+            },
+            {
+                "source": "MI0000459",
+                "target": 1738,
+                "type": "M-P",
+                "value": "0.0601"
+            },
+            {
+                "source": "D000071698",
+                "target": "D003920",
+                "type": "D-D",
+                "value": "0.5079"
+            },
+            {
+                "source": "D000071698",
+                "target": "D001327",
+                "type": "D-D",
+                "value": "0.2937"
+            },
+            {
+                "source": "D000071698",
+                "target": "D000071698",
+                "type": "D-D",
+                "value": "0.1984"
+            },
+            {
+                "source": "D000071698",
+                "target": 26191,
+                "type": "D-P",
+                "value": "0.6465"
+            },
+            {
+                "source": "D000071698",
+                "target": 10019,
+                "type": "D-P",
+                "value": "0.2688"
+            },
+            {
+                "source": "D000071698",
+                "target": 3630,
+                "type": "D-P",
+                "value": "0.0349"
+            },
+            {
+                "source": "D000071698",
+                "target": 6311,
+                "type": "D-P",
+                "value": "0.0252"
+            },
+            {
+                "source": "D000071698",
+                "target": 60468,
+                "type": "D-P",
+                "value": "0.0246"
+            },
+            {
+                "source": "D003920",
+                "target": "D000224",
+                "type": "D-D",
+                "value": "0.7500"
+            },
+            {
+                "source": "D003920",
+                "target": "D003922",
+                "type": "D-D",
+                "value": "0.2500"
+            },
+            {
+                "source": "D003920",
+                "target": "D020274",
+                "type": "D-D",
+                "value": "4.2605e-09"
+            },
+            {
+                "source": "D003920",
+                "target": "D009879",
+                "type": "D-D",
+                "value": "8.9785e-13"
+            },
+            {
+                "source": "D003920",
+                "target": "D000077733",
+                "type": "D-D",
+                "value": "6.8631e-21"
+            },
+            {
+                "source": "D003920",
+                "target": "D007154",
+                "type": "D-D",
+                "value": "1.0126e-21"
+            },
+            {
+                "source": "D003920",
+                "target": "D062027",
+                "type": "D-D",
+                "value": "9.5166e-22"
+            },
+            {
+                "source": "D000071698",
+                "target": "D003921",
+                "type": "D-D",
+                "value": "0.2504"
+            },
+            {
+                "source": "D000071698",
+                "target": "D056731",
+                "type": "D-D",
+                "value": "0.2500"
+            },
+            {
+                "source": "D000071698",
+                "target": "D003922",
+                "type": "D-D",
+                "value": "0.2500"
+            },
+            {
+                "source": "D000071698",
+                "target": "D044882",
+                "type": "D-D",
+                "value": "0.2496"
+            },
+            {
+                "source": "D000071698",
+                "target": "D003924",
+                "type": "D-D",
+                "value": "9.0585e-07"
+            },
+            {
+                "source": "D000071698",
+                "target": "D011236",
+                "type": "D-D",
+                "value": "2.1454e-07"
+            },
+            {
+                "source": "D000071698",
+                "target": "D003920",
+                "type": "D-D",
+                "value": "3.6641e-11"
+            },
+            {
+                "source": "MI0000459",
+                "target": "D003920",
+                "type": "M-D",
+                "value": 1
+            },
+            {
+                "source": "MI0000459",
+                "target": "D011236",
+                "type": "M-D",
+                "value": 1
+            },
+            {
+                "source": "MI0000459",
+                "target": "D003924",
+                "type": "M-D",
+                "value": 1
+            }
+        ]
+    }
+}
