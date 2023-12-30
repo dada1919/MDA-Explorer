@@ -33,18 +33,7 @@
 
 <script setup lang="ts">
 
-// import { computed, ref } from 'vue'
-// const size = ref('Small')
-// const blockMargin = computed(() => {
-//   const marginMap = {
-//     large: '32px',
-//     default: '28px',
-//     small: '2px',
-//   }
-//   return {
-//     marginTop: marginMap[size.value] || marginMap.default,
-//   }
-// })
+
 </script>
 
 <style scoped>

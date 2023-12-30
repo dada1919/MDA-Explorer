@@ -1,17 +1,18 @@
 <template>
   <div class="dashboard-container">
     <div class="dashboard__item chart prediction-view">
-      This is Prediction Space
-      <HeatMap style="padding-top: 2%;"></HeatMap>
+      <!-- This is Prediction Space -->
+      <HeatMap></HeatMap>
     </div>
 
     <div class="dashboard__item result-view">
-      This is Prediction Result
-      <MyTable style="padding-top: 2%;"></MyTable>
+      <!-- This is Prediction Result -->
+      <!-- <MyTable style="padding-top: 2%;"></MyTable> -->
+      <miniHeatMap></miniHeatMap>
     </div>
     
     <div class="dashboard__item chart explanation-view">
-      This is Explanation
+      <!-- This is Explanation -->
       <NodeLinkGraph></NodeLinkGraph>
     </div>
     
@@ -29,8 +30,12 @@
 import HeatMap from './HeatMap.vue';
 import NodeLinkGraph from './NodeLinkGraph.vue';
 import MyTable from './MyTable.vue';
+<<<<<<< HEAD
 import MiRNA from './MiRNA.vue';
 import Disease from './Disease.vue';
+=======
+import miniHeatMap from './miniHeatMap.vue';
+>>>>>>> b40c9e4ed78bbd66023fa573c50242a4522a4d40
 </script>
 
 <style scoped>
