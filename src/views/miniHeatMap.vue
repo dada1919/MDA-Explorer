@@ -14,10 +14,15 @@
   import raw_data from '@/assets/data/array'
   import { useUserStore } from '@/stores/counter';
   import { storeToRefs } from 'pinia'
+  import { useGraphStore } from '@/stores/graph'
 
   const user = useUserStore()
   // const index = storeToRefs(user.value)
   const { disease_index, mirna_index, fix, fix_disease, fix_mirna } = storeToRefs(user)
+
+  const graph_user = useGraphStore()
+  // const { graph_disease, graph_mirna } = storeToRefs(graph_user)
+
   var data = {'values': '', 'disease':'', 'mirna':''}
 
   const miRef = ref()
@@ -40,20 +45,21 @@
   const legendRectHeight = 8;
   const data_max = 1;
 
-  // 定义浅蓝色和目标颜色的 RGB 值
-  var startColor = "#E3F2FD";
-  var endColor = "#2962FF";
-
-  // 将颜色转换为 RGB 值
-  var startRGB = d3.rgb(startColor);
-  var endRGB = d3.rgb(endColor);
+  const highlight_color = "red"
+  const over_color = "#ff9300"
+  const highlight_width = 2
   const color = d3.scaleSequentialSqrt([0, data_max], d3.interpolateGreens);
   
   onMounted(()=>{
     
     try {
-      // console.log("disease_index"+disease_index.value)
-      init(disease_index.value, mirna_index.value );
+      
+      console.log("disease_index"+disease_index)
+      if(fix.value) {
+        update(fix_disease.value, fix_mirna.value);
+      } else {
+        update(disease_index.value, mirna_index.value);
+      }
 
       watch([fix, fix_disease, fix_mirna], (newValue, oldValue) => {
         if(newValue[0] && oldValue[0])
@@ -99,8 +105,18 @@
       .domain(data.mirna)
       .range([marginTop, height - marginBottom])
     
-
-    const svg = d3.select("#miheatMap").select("svg")
+    var svg = d3.select("#miheatMap").select("svg")
+    if(svg.size() === 0) {
+      svg = d3
+        .select("#miheatMap")
+        .append("svg")
+        .attr("viewBox", [0, 0, width, height])
+        .attr("viewBox", [0, 0, width, height])
+        .attr("width", width)
+        .attr("height", height)
+        .attr("style", "max-width: 100%; height: 100%;");
+    }
+    
     svg.selectAll("rect").remove()
     svg.append("g")
       .selectAll("g")
@@ -166,14 +182,15 @@
       // .on("click", handleClick)
       .on("mouseover", handleMouseOver)
       .on("mouseout", handleMouseOut)
+      .on("click", handleClick)
 
     function handleMouseOver(event, d) {
       
       if (selectedRect == this)
           return;
       d3.select(this)
-        .attr("stroke", "red")
-        .attr("stroke-width", 1)
+        .attr("stroke", over_color)
+        .attr("stroke-width", highlight_width)
 
       const xy = d3.pointer(event, svg.node());
       const xv = xy[0]
@@ -195,6 +212,35 @@
       }
     }
 
+    function handleClick(event, d) {
+      if (selectedRect == this) {
+          d3.select(selectedRect)
+            .attr("stroke", "none");
+          selectedRect = null;
+          return;
+        }
+      if (selectedRect) {
+        // 移除之前选中的矩形的边框
+        d3.select(selectedRect)
+          .attr("stroke", "none");
+      }
+
+      selectedRect = this;
+      // 给当前选中的矩形添加高亮的边框
+      d3.select(this)
+        .attr("stroke", highlight_color)
+        .attr("stroke-width", highlight_color)
+      // console.log(user.disease_index)
+
+      const xy = d3.pointer(event, svg.node());
+      const xv = xy[0]
+      const yv = xy[1]
+      const index_d = Math.floor((xv-marginLeft)/ x.bandwidth());
+      const index_m = Math.floor((yv-marginTop) / y.bandwidth());
+      
+      graph_user.graph_disease = data.disease[index_d]
+      graph_user.graph_mirna = data.mirna[index_m]
+    }
   }
 
   function init(disease_index, mirna_index) {
@@ -224,17 +270,15 @@
         // Create the scales.
     const x = d3.scaleBand()
       .domain(data.disease)
-      .rangeRound([marginLeft, width - marginRight-marginLeft])
+      .rangeRound([marginLeft, width - marginRight])
     
       // console.log(x)
   
   
     const y = d3.scaleBand()
       .domain(data.mirna)
-      .rangeRound([marginTop, height - marginBottom-marginTop])
+      .rangeRound([marginTop, height - marginBottom])
     
-  
-    const color = d3.scaleSequentialSqrt([0, d3.max(data.values, d => d3.max(d))], d3.interpolatePuRd);
   
     // Append the axes.
     // svg.append("g")

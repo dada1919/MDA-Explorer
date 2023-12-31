@@ -11,13 +11,15 @@
 
 <script setup>
 import * as d3 from "d3";
-import { onMounted, ref } from "vue";
+import { onMounted, ref, watch } from "vue";
 // import suits from '@/assets/data/suits'
 // import graph_data from '@/assets/data/graph'
 // import graph_data from '@/assets/data/old_graph'
-import graph_data from '@/assets/data/example3'
+// import graph_data from '@/assets/data/example3'
+import { useGraphStore } from '@/stores/graph'
+import { storeToRefs } from 'pinia'
 
-
+var graph_data
 const containerRef = ref()
 const tooltip = ref()
 const visible = ref(false);  //控制tooltip显示或隐藏
@@ -28,14 +30,45 @@ const node_visible = ref(false);
 var nodeRef = ref(null)
 var content2 = ref()
 
+const user = useGraphStore()
+const { graph_disease, graph_mirna } = storeToRefs(user)
+var target_disease = graph_disease.value
+var target_mirna = graph_mirna.value
+var path = '/public/graph_data/'+target_mirna+'.json'
+
 const nodeR = 7
 
 onMounted(()=>{
-  try {
-    init();
-  } catch(error) {
-    console.error(error)
-  }
+  // console.log("path"+path)
+
+  if(target_disease != -1){
+    import(path).then((data) => {
+      //在加载完成后可以处理文件内容
+      graph_data = data[target_disease]
+      init();
+  });}
+
+  watch([graph_disease, graph_mirna], (newValue, oldValue) => {
+    console.log("watch")
+    target_disease = graph_disease.value
+    target_mirna = graph_mirna.value
+    path = '/public/graph_data/'+target_mirna+'.json'
+    if(target_disease != -1){
+    import(path).then((data) => {
+      //在加载完成后可以处理文件内容
+      graph_data = data[target_disease]
+      init();
+    });
+    }
+  })
+
+  
+  
+  // try {
+    
+  // } catch(error) {
+  //   console.error(error)
+  // }
     
 })
 
@@ -47,19 +80,24 @@ function init() {
     const link_types = ["D-P", "M-P", "M-M", "M-D", "D-D"];
     // const nodes = graph_data.nodes;
     // const links = graph_data.edges;
-    const target_disease = "D000071698"
-    const target_mirna = "MI0000459"
-    const pred = graph_data.D000071698.pred
+    console.log(graph_data);
+    const pred = graph_data.pred
 
-    const nodes = graph_data.D000071698.nodes.map(d => ({...d}));
+    const nodes = graph_data.nodes.map(d => ({...d}));
     
-    const links = graph_data.D000071698.edges.map(d => ({...d}));
+    const links = graph_data.edges.map(d => ({...d}));
     var newLink = { source: target_mirna, target: target_disease , value:pred, type:"M-D"};
     links.push(newLink);
+
+    var disease_node = { type: 'D', ID: target_disease, name: null, level: 0}
+    var mirna_node = {type: 'M', ID: target_mirna, name: null, level: 0}
+    nodes.push(disease_node)
+    nodes.push(mirna_node)
 
     const node_color = d3.scaleOrdinal(types, d3.schemeCategory10);
     const link_color = "#999";
     var pre_color;
+    
 
     // console.log(nodes)
     //原来的
@@ -76,15 +114,18 @@ function init() {
       .force("x", d3.forceX())
       .force("y", d3.forceY());
 
-    const svg = d3
-      .select("#nodelink")
-      .append("svg")
-      .attr("viewBox", [-width / 2, -height / 2, width, height])
-      .attr("width", width)
-      .attr("height", height)
-      .attr("style", "max-width: 100%; height: auto; font: 12px sans-serif;");
-
-
+    var svg = d3.select("#nodelink").select("svg")
+    if(svg.size() === 0) {
+      svg = d3
+        .select("#nodelink")
+        .append("svg")
+        .attr("viewBox", [-width / 2, -height / 2, width, height])
+        .attr("width", width)
+        .attr("height", height)
+        .attr("style", "max-width: 100%; height: auto; font: 12px sans-serif;");
+    }
+    svg.selectAll("*").remove();
+    
     //添加图例
     var data_legend = [
       {
@@ -148,14 +189,14 @@ function init() {
       .join("path")
       .attr("id", function(d, i) { return "arc-" + i; }) // 唯一的ID用于文本Path引用
       .attr("stroke", function(d) {
-        console.log("d"+JSON.stringify(d));
+        // console.log("d"+JSON.stringify(d));
         return (d.source.ID == target_mirna && d.target.ID == target_disease)? "#FF0000" :"#999";
       })
       .attr("stroke-width", function(d, i) { return Math.max(1, 5 * d.value) })
       .attr("stroke-opacity", 0.6)
       .attr("marker-end", d => `url(${new URL(`#arrow-${d.type}`, location)})`)
       .on("mouseover", function(event, d) {
-        console.log("on")
+        // console.log("on")
         visible.value = true;
         linkRef.value = event.currentTarget;
         content = d.value

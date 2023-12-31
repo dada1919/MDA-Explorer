@@ -1,0 +1,6272 @@
+{
+    "D021441": {
+        "pred": [
+            0.9970779418945312
+        ],
+        "nodes": [
+            {
+                "type": "M",
+                "ID": "MI0000070",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000115",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000438",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000069",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000489",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 3098,
+                "name": "hexokinase 1",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 89910,
+                "name": "ubiquitin protein ligase E3B",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 79728,
+                "name": "partner and localizer of BRCA2",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 6507,
+                "name": "solute carrier family 1 member 3",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 8195,
+                "name": "MKKS centrosomal shuttling protein",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D010190",
+                "name": "Pancreatic Neoplasms",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D044584",
+                "name": "Carcinoma, Ductal",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D021441",
+                "name": "Carcinoma, Pancreatic Ductal",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 23220,
+                "name": "deltex E3 ubiquitin ligase 4",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 1840,
+                "name": "deltex E3 ubiquitin ligase 1",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 10232,
+                "name": "mesothelin",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 1786,
+                "name": "DNA methyltransferase 1",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 6794,
+                "name": "serine/threonine kinase 11",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D002908",
+                "name": "Chronic Disease",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D007511",
+                "name": "Ischemia",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D058729",
+                "name": "Peripheral Arterial Disease",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D000089802",
+                "name": "Chronic Limb-Threatening Ischemia",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D014564",
+                "name": "Urogenital Abnormalities",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D058536",
+                "name": "Pyelectasis",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D005315",
+                "name": "Fetal Diseases",
+                "level": 0
+            }
+        ],
+        "edges": [
+            {
+                "source": "MI0000489",
+                "target": "MI0000070",
+                "type": "M-M",
+                "value": "0.5000"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000115",
+                "type": "M-M",
+                "value": "0.4988"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000438",
+                "type": "M-M",
+                "value": "0.0012"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000069",
+                "type": "M-M",
+                "value": "0.0000"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000489",
+                "type": "M-M",
+                "value": "0.0000"
+            },
+            {
+                "source": "MI0000489",
+                "target": 3098,
+                "type": "M-P",
+                "value": "0.2889"
+            },
+            {
+                "source": "MI0000489",
+                "target": 89910,
+                "type": "M-P",
+                "value": "0.2184"
+            },
+            {
+                "source": "MI0000489",
+                "target": 79728,
+                "type": "M-P",
+                "value": "0.0807"
+            },
+            {
+                "source": "MI0000489",
+                "target": 6507,
+                "type": "M-P",
+                "value": "0.0726"
+            },
+            {
+                "source": "MI0000489",
+                "target": 8195,
+                "type": "M-P",
+                "value": "0.0400"
+            },
+            {
+                "source": "D021441",
+                "target": "D010190",
+                "type": "D-D",
+                "value": "0.7500"
+            },
+            {
+                "source": "D021441",
+                "target": "D044584",
+                "type": "D-D",
+                "value": "0.2498"
+            },
+            {
+                "source": "D021441",
+                "target": "D021441",
+                "type": "D-D",
+                "value": "0.0002"
+            },
+            {
+                "source": "D021441",
+                "target": 23220,
+                "type": "D-P",
+                "value": "0.9631"
+            },
+            {
+                "source": "D021441",
+                "target": 1840,
+                "type": "D-P",
+                "value": "0.0369"
+            },
+            {
+                "source": "D021441",
+                "target": 10232,
+                "type": "D-P",
+                "value": "0.0000"
+            },
+            {
+                "source": "D021441",
+                "target": 1786,
+                "type": "D-P",
+                "value": "0.0000"
+            },
+            {
+                "source": "D021441",
+                "target": 6794,
+                "type": "D-P",
+                "value": "0.0000"
+            },
+            {
+                "source": "D010190",
+                "target": "D002908",
+                "type": "D-D",
+                "value": "0.6185"
+            },
+            {
+                "source": "D010190",
+                "target": "D007511",
+                "type": "D-D",
+                "value": "0.3814"
+            },
+            {
+                "source": "D010190",
+                "target": "D058729",
+                "type": "D-D",
+                "value": "6.3348e-05"
+            },
+            {
+                "source": "D010190",
+                "target": "D000089802",
+                "type": "D-D",
+                "value": "9.7433e-09"
+            },
+            {
+                "source": "D021441",
+                "target": "D014564",
+                "type": "D-D",
+                "value": "0.5000"
+            },
+            {
+                "source": "D021441",
+                "target": "D058536",
+                "type": "D-D",
+                "value": "0.5000"
+            },
+            {
+                "source": "D021441",
+                "target": "D005315",
+                "type": "D-D",
+                "value": "4.1844e-05"
+            }
+        ]
+    },
+    "D003882": {
+        "pred": [
+            0.9922711849212646
+        ],
+        "nodes": [
+            {
+                "type": "M",
+                "ID": "MI0000070",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000115",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000438",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000069",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000489",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 3098,
+                "name": "hexokinase 1",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 89910,
+                "name": "ubiquitin protein ligase E3B",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 79728,
+                "name": "partner and localizer of BRCA2",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 6507,
+                "name": "solute carrier family 1 member 3",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 8195,
+                "name": "MKKS centrosomal shuttling protein",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D017285",
+                "name": "Polymyositis",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D003240",
+                "name": "Connective Tissue Diseases",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D012871",
+                "name": "Skin Diseases",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D003882",
+                "name": "Dermatomyositis",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 23452,
+                "name": "angiopoietin like 2",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 3552,
+                "name": "interleukin 1 alpha",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 717,
+                "name": "complement C2",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 5304,
+                "name": "prolactin induced protein",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 51592,
+                "name": "tripartite motif containing 33",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D060831",
+                "name": "Hand-Foot Syndrome",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D003875",
+                "name": "Drug Eruptions",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D004443",
+                "name": "Echinococcosis",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D004445",
+                "name": "Echinococcosis, Pulmonary",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D008174",
+                "name": "Lung Diseases, Parasitic",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D030341",
+                "name": "Nidovirales Infections",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D018352",
+                "name": "Coronavirus Infections",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D018176",
+                "name": "Torovirus Infections",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D003333",
+                "name": "Coronaviridae Infections",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D008052",
+                "name": "Lipid Metabolism, Inborn Errors",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D006952",
+                "name": "Hyperlipoproteinemia Type III",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D006951",
+                "name": "Hyperlipoproteinemias",
+                "level": 0
+            }
+        ],
+        "edges": [
+            {
+                "source": "MI0000489",
+                "target": "MI0000070",
+                "type": "M-M",
+                "value": "0.5000"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000115",
+                "type": "M-M",
+                "value": "0.4988"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000438",
+                "type": "M-M",
+                "value": "0.0012"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000069",
+                "type": "M-M",
+                "value": "0.0000"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000489",
+                "type": "M-M",
+                "value": "0.0000"
+            },
+            {
+                "source": "MI0000489",
+                "target": 3098,
+                "type": "M-P",
+                "value": "0.2889"
+            },
+            {
+                "source": "MI0000489",
+                "target": 89910,
+                "type": "M-P",
+                "value": "0.2184"
+            },
+            {
+                "source": "MI0000489",
+                "target": 79728,
+                "type": "M-P",
+                "value": "0.0807"
+            },
+            {
+                "source": "MI0000489",
+                "target": 6507,
+                "type": "M-P",
+                "value": "0.0726"
+            },
+            {
+                "source": "MI0000489",
+                "target": 8195,
+                "type": "M-P",
+                "value": "0.0400"
+            },
+            {
+                "source": "D003882",
+                "target": "D017285",
+                "type": "D-D",
+                "value": "0.7499"
+            },
+            {
+                "source": "D003882",
+                "target": "D003240",
+                "type": "D-D",
+                "value": "0.2250"
+            },
+            {
+                "source": "D003882",
+                "target": "D012871",
+                "type": "D-D",
+                "value": "0.0250"
+            },
+            {
+                "source": "D003882",
+                "target": "D003882",
+                "type": "D-D",
+                "value": "0.0001"
+            },
+            {
+                "source": "D003882",
+                "target": 23452,
+                "type": "D-P",
+                "value": "0.6822"
+            },
+            {
+                "source": "D003882",
+                "target": 3552,
+                "type": "D-P",
+                "value": "0.3046"
+            },
+            {
+                "source": "D003882",
+                "target": 717,
+                "type": "D-P",
+                "value": "0.0118"
+            },
+            {
+                "source": "D003882",
+                "target": 5304,
+                "type": "D-P",
+                "value": "0.0014"
+            },
+            {
+                "source": "D003882",
+                "target": 51592,
+                "type": "D-P",
+                "value": "0.0000"
+            },
+            {
+                "source": "D017285",
+                "target": "D060831",
+                "type": "D-D",
+                "value": "0.8278"
+            },
+            {
+                "source": "D017285",
+                "target": "D003875",
+                "type": "D-D",
+                "value": "0.1722"
+            },
+            {
+                "source": "D003240",
+                "target": "D004443",
+                "type": "D-D",
+                "value": "1.0000"
+            },
+            {
+                "source": "D003240",
+                "target": "D004445",
+                "type": "D-D",
+                "value": "1.4017e-05"
+            },
+            {
+                "source": "D003240",
+                "target": "D008174",
+                "type": "D-D",
+                "value": "2.6507e-06"
+            },
+            {
+                "source": "MI0000489",
+                "target": "D004443",
+                "type": "M-D",
+                "value": 1
+            },
+            {
+                "source": "D012871",
+                "target": "D030341",
+                "type": "D-D",
+                "value": "0.9775"
+            },
+            {
+                "source": "D012871",
+                "target": "D018352",
+                "type": "D-D",
+                "value": "0.0225"
+            },
+            {
+                "source": "D012871",
+                "target": "D018176",
+                "type": "D-D",
+                "value": "3.1494e-21"
+            },
+            {
+                "source": "D012871",
+                "target": "D003333",
+                "type": "D-D",
+                "value": "1.7310e-25"
+            },
+            {
+                "source": "D003882",
+                "target": "D008052",
+                "type": "D-D",
+                "value": "0.7243"
+            },
+            {
+                "source": "D003882",
+                "target": "D006952",
+                "type": "D-D",
+                "value": "0.2757"
+            },
+            {
+                "source": "D003882",
+                "target": "D006951",
+                "type": "D-D",
+                "value": "5.9922e-11"
+            }
+        ]
+    },
+    "D015459": {
+        "pred": [
+            0.9952892065048218
+        ],
+        "nodes": [
+            {
+                "type": "M",
+                "ID": "MI0000070",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000115",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000438",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000069",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000489",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 3098,
+                "name": "hexokinase 1",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 89910,
+                "name": "ubiquitin protein ligase E3B",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 79728,
+                "name": "partner and localizer of BRCA2",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 6507,
+                "name": "solute carrier family 1 member 3",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 8195,
+                "name": "MKKS centrosomal shuttling protein",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D015459",
+                "name": "Leukemia-Lymphoma, Adult T-Cell",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D015458",
+                "name": "Leukemia, T-Cell",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 23705,
+                "name": "cell adhesion molecule 1",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 3662,
+                "name": "interferon regulatory factor 4",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 55729,
+                "name": "activating transcription factor 7 interacting protein",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 1880,
+                "name": "G protein-coupled receptor 183",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 5335,
+                "name": "phospholipase C gamma 1",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D058447",
+                "name": "Eye Pain",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D010146",
+                "name": "Pain",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D005132",
+                "name": "Eye Manifestations",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D000072716",
+                "name": "Cancer Pain",
+                "level": 0
+            }
+        ],
+        "edges": [
+            {
+                "source": "MI0000489",
+                "target": "MI0000070",
+                "type": "M-M",
+                "value": "0.5000"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000115",
+                "type": "M-M",
+                "value": "0.4988"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000438",
+                "type": "M-M",
+                "value": "0.0012"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000069",
+                "type": "M-M",
+                "value": "0.0000"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000489",
+                "type": "M-M",
+                "value": "0.0000"
+            },
+            {
+                "source": "MI0000489",
+                "target": 3098,
+                "type": "M-P",
+                "value": "0.2889"
+            },
+            {
+                "source": "MI0000489",
+                "target": 89910,
+                "type": "M-P",
+                "value": "0.2184"
+            },
+            {
+                "source": "MI0000489",
+                "target": 79728,
+                "type": "M-P",
+                "value": "0.0807"
+            },
+            {
+                "source": "MI0000489",
+                "target": 6507,
+                "type": "M-P",
+                "value": "0.0726"
+            },
+            {
+                "source": "MI0000489",
+                "target": 8195,
+                "type": "M-P",
+                "value": "0.0400"
+            },
+            {
+                "source": "D015459",
+                "target": "D015459",
+                "type": "D-D",
+                "value": "0.7506"
+            },
+            {
+                "source": "D015459",
+                "target": "D015458",
+                "type": "D-D",
+                "value": "0.2494"
+            },
+            {
+                "source": "D015459",
+                "target": 23705,
+                "type": "D-P",
+                "value": "0.7615"
+            },
+            {
+                "source": "D015459",
+                "target": 3662,
+                "type": "D-P",
+                "value": "0.2362"
+            },
+            {
+                "source": "D015459",
+                "target": 55729,
+                "type": "D-P",
+                "value": "0.0016"
+            },
+            {
+                "source": "D015459",
+                "target": 1880,
+                "type": "D-P",
+                "value": "0.0003"
+            },
+            {
+                "source": "D015459",
+                "target": 5335,
+                "type": "D-P",
+                "value": "0.0002"
+            },
+            {
+                "source": "D015459",
+                "target": "D058447",
+                "type": "D-D",
+                "value": "1.0000"
+            },
+            {
+                "source": "D015459",
+                "target": "D010146",
+                "type": "D-D",
+                "value": "7.5311e-08"
+            },
+            {
+                "source": "D015459",
+                "target": "D005132",
+                "type": "D-D",
+                "value": "2.5588e-16"
+            },
+            {
+                "source": "D015458",
+                "target": "D010146",
+                "type": "D-D",
+                "value": "0.7557"
+            },
+            {
+                "source": "D015458",
+                "target": "D000072716",
+                "type": "D-D",
+                "value": "0.2443"
+            }
+        ]
+    },
+    "D000077216": {
+        "pred": [
+            0.9913894534111023
+        ],
+        "nodes": [
+            {
+                "type": "M",
+                "ID": "MI0000070",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000115",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000438",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000069",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000489",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 3098,
+                "name": "hexokinase 1",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 89910,
+                "name": "ubiquitin protein ligase E3B",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 79728,
+                "name": "partner and localizer of BRCA2",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 6507,
+                "name": "solute carrier family 1 member 3",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 8195,
+                "name": "MKKS centrosomal shuttling protein",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D010051",
+                "name": "Ovarian Neoplasms",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D002277",
+                "name": "Carcinoma",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D000077216",
+                "name": "Carcinoma, Ovarian Epithelial",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 5291,
+                "name": "phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 5294,
+                "name": "phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit gamma",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 5609,
+                "name": "mitogen-activated protein kinase kinase 7",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 5241,
+                "name": "progesterone receptor",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 84669,
+                "name": "ubiquitin specific peptidase 32",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D011004",
+                "name": "Plummer-Vinson Syndrome",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D015154",
+                "name": "Esophageal Motility Disorders",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D002602",
+                "name": "Chancroid",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D001424",
+                "name": "Bacterial Infections",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D006100",
+                "name": "Granuloma Inguinale",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D012749",
+                "name": "Sexually Transmitted Diseases",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D015231",
+                "name": "Sexually Transmitted Diseases, Bacterial",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D002690",
+                "name": "Chlamydia Infections",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D006069",
+                "name": "Gonorrhea",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D002561",
+                "name": "Cerebrovascular Disorders",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D010899",
+                "name": "Pituitary Apoplexy",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D006407",
+                "name": "Hematoma, Epidural, Cranial",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D006408",
+                "name": "Hematoma, Subdural",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D006470",
+                "name": "Hemorrhage",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D020299",
+                "name": "Intracranial Hemorrhage, Hypertensive",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D020198",
+                "name": "Intracranial Hemorrhage, Traumatic",
+                "level": 0
+            }
+        ],
+        "edges": [
+            {
+                "source": "MI0000489",
+                "target": "MI0000070",
+                "type": "M-M",
+                "value": "0.5000"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000115",
+                "type": "M-M",
+                "value": "0.4988"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000438",
+                "type": "M-M",
+                "value": "0.0012"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000069",
+                "type": "M-M",
+                "value": "0.0000"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000489",
+                "type": "M-M",
+                "value": "0.0000"
+            },
+            {
+                "source": "MI0000489",
+                "target": 3098,
+                "type": "M-P",
+                "value": "0.2889"
+            },
+            {
+                "source": "MI0000489",
+                "target": 89910,
+                "type": "M-P",
+                "value": "0.2184"
+            },
+            {
+                "source": "MI0000489",
+                "target": 79728,
+                "type": "M-P",
+                "value": "0.0807"
+            },
+            {
+                "source": "MI0000489",
+                "target": 6507,
+                "type": "M-P",
+                "value": "0.0726"
+            },
+            {
+                "source": "MI0000489",
+                "target": 8195,
+                "type": "M-P",
+                "value": "0.0400"
+            },
+            {
+                "source": "D000077216",
+                "target": "D010051",
+                "type": "D-D",
+                "value": "0.5080"
+            },
+            {
+                "source": "D000077216",
+                "target": "D002277",
+                "type": "D-D",
+                "value": "0.3154"
+            },
+            {
+                "source": "D000077216",
+                "target": "D000077216",
+                "type": "D-D",
+                "value": "0.1766"
+            },
+            {
+                "source": "D000077216",
+                "target": 5291,
+                "type": "D-P",
+                "value": "0.8883"
+            },
+            {
+                "source": "D000077216",
+                "target": 5294,
+                "type": "D-P",
+                "value": "0.1117"
+            },
+            {
+                "source": "D000077216",
+                "target": 5609,
+                "type": "D-P",
+                "value": "0.0000"
+            },
+            {
+                "source": "D000077216",
+                "target": 5241,
+                "type": "D-P",
+                "value": "0.0000"
+            },
+            {
+                "source": "D000077216",
+                "target": 84669,
+                "type": "D-P",
+                "value": "0.0000"
+            },
+            {
+                "source": "D010051",
+                "target": "D011004",
+                "type": "D-D",
+                "value": "0.9999"
+            },
+            {
+                "source": "D010051",
+                "target": "D015154",
+                "type": "D-D",
+                "value": "0.0001"
+            },
+            {
+                "source": "D002277",
+                "target": "D002602",
+                "type": "D-D",
+                "value": "0.7499"
+            },
+            {
+                "source": "D002277",
+                "target": "D001424",
+                "type": "D-D",
+                "value": "0.2501"
+            },
+            {
+                "source": "D002277",
+                "target": "D006100",
+                "type": "D-D",
+                "value": "4.0936e-05"
+            },
+            {
+                "source": "D002277",
+                "target": "D012749",
+                "type": "D-D",
+                "value": "9.3490e-10"
+            },
+            {
+                "source": "D002277",
+                "target": "D015231",
+                "type": "D-D",
+                "value": "3.2652e-11"
+            },
+            {
+                "source": "D002277",
+                "target": "D002690",
+                "type": "D-D",
+                "value": "2.6315e-13"
+            },
+            {
+                "source": "D002277",
+                "target": "D006069",
+                "type": "D-D",
+                "value": "2.5980e-15"
+            },
+            {
+                "source": "D000077216",
+                "target": "D002561",
+                "type": "D-D",
+                "value": "0.7500"
+            },
+            {
+                "source": "D000077216",
+                "target": "D010899",
+                "type": "D-D",
+                "value": "0.2498"
+            },
+            {
+                "source": "D000077216",
+                "target": "D006407",
+                "type": "D-D",
+                "value": "0.0002"
+            },
+            {
+                "source": "D000077216",
+                "target": "D006408",
+                "type": "D-D",
+                "value": "9.6172e-07"
+            },
+            {
+                "source": "D000077216",
+                "target": "D006470",
+                "type": "D-D",
+                "value": "2.0815e-10"
+            },
+            {
+                "source": "D000077216",
+                "target": "D020299",
+                "type": "D-D",
+                "value": "7.4443e-11"
+            },
+            {
+                "source": "D000077216",
+                "target": "D020198",
+                "type": "D-D",
+                "value": "2.5791e-12"
+            },
+            {
+                "source": "MI0000489",
+                "target": "D020299",
+                "type": "M-D",
+                "value": 1
+            }
+        ]
+    },
+    "D016889": {
+        "pred": [
+            0.9966297745704651
+        ],
+        "nodes": [
+            {
+                "type": "M",
+                "ID": "MI0000070",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000115",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000438",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000069",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000489",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 3098,
+                "name": "hexokinase 1",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 89910,
+                "name": "ubiquitin protein ligase E3B",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 79728,
+                "name": "partner and localizer of BRCA2",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 6507,
+                "name": "solute carrier family 1 member 3",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 8195,
+                "name": "MKKS centrosomal shuttling protein",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D014594",
+                "name": "Uterine Neoplasms",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D036821",
+                "name": "Endometrial Stromal Tumors",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D018269",
+                "name": "Carcinoma, Endometrioid",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D016889",
+                "name": "Endometrial Neoplasms",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 5291,
+                "name": "phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 4216,
+                "name": "mitogen-activated protein kinase kinase kinase 4",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 5294,
+                "name": "phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit gamma",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 9890,
+                "name": "phospholipid phosphatase related 4",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 3294,
+                "name": "hydroxysteroid 17-beta dehydrogenase 2",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D006977",
+                "name": "Hypertension, Renal",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D006978",
+                "name": "Hypertension, Renovascular",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D002177",
+                "name": "Candidiasis",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D002181",
+                "name": "Candidiasis, Vulvovaginal",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D014848",
+                "name": "Vulvovaginitis",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D012816",
+                "name": "Signs and Symptoms",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D014770",
+                "name": "Virilism",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D006628",
+                "name": "Hirsutism",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D010146",
+                "name": "Pain",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D000073818",
+                "name": "Pain, Procedural",
+                "level": 0
+            }
+        ],
+        "edges": [
+            {
+                "source": "MI0000489",
+                "target": "MI0000070",
+                "type": "M-M",
+                "value": "0.5000"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000115",
+                "type": "M-M",
+                "value": "0.4988"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000438",
+                "type": "M-M",
+                "value": "0.0012"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000069",
+                "type": "M-M",
+                "value": "0.0000"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000489",
+                "type": "M-M",
+                "value": "0.0000"
+            },
+            {
+                "source": "MI0000489",
+                "target": 3098,
+                "type": "M-P",
+                "value": "0.2889"
+            },
+            {
+                "source": "MI0000489",
+                "target": 89910,
+                "type": "M-P",
+                "value": "0.2184"
+            },
+            {
+                "source": "MI0000489",
+                "target": 79728,
+                "type": "M-P",
+                "value": "0.0807"
+            },
+            {
+                "source": "MI0000489",
+                "target": 6507,
+                "type": "M-P",
+                "value": "0.0726"
+            },
+            {
+                "source": "MI0000489",
+                "target": 8195,
+                "type": "M-P",
+                "value": "0.0400"
+            },
+            {
+                "source": "D016889",
+                "target": "D014594",
+                "type": "D-D",
+                "value": "0.7386"
+            },
+            {
+                "source": "D016889",
+                "target": "D036821",
+                "type": "D-D",
+                "value": "0.2472"
+            },
+            {
+                "source": "D016889",
+                "target": "D018269",
+                "type": "D-D",
+                "value": "0.0122"
+            },
+            {
+                "source": "D016889",
+                "target": "D016889",
+                "type": "D-D",
+                "value": "0.0020"
+            },
+            {
+                "source": "D016889",
+                "target": 5291,
+                "type": "D-P",
+                "value": "0.4961"
+            },
+            {
+                "source": "D016889",
+                "target": 4216,
+                "type": "D-P",
+                "value": "0.4917"
+            },
+            {
+                "source": "D016889",
+                "target": 5294,
+                "type": "D-P",
+                "value": "0.0086"
+            },
+            {
+                "source": "D016889",
+                "target": 9890,
+                "type": "D-P",
+                "value": "0.0036"
+            },
+            {
+                "source": "D016889",
+                "target": 3294,
+                "type": "D-P",
+                "value": "0.0000"
+            },
+            {
+                "source": "D014594",
+                "target": "D006977",
+                "type": "D-D",
+                "value": "0.7511"
+            },
+            {
+                "source": "D014594",
+                "target": "D006978",
+                "type": "D-D",
+                "value": "0.2489"
+            },
+            {
+                "source": "D036821",
+                "target": "D002177",
+                "type": "D-D",
+                "value": "1.0000"
+            },
+            {
+                "source": "D036821",
+                "target": "D002181",
+                "type": "D-D",
+                "value": "1.5224e-09"
+            },
+            {
+                "source": "D036821",
+                "target": "D014848",
+                "type": "D-D",
+                "value": "2.3096e-18"
+            },
+            {
+                "source": "D018269",
+                "target": "D012816",
+                "type": "D-D",
+                "value": "1.0000"
+            },
+            {
+                "source": "D018269",
+                "target": "D014770",
+                "type": "D-D",
+                "value": "3.0684e-18"
+            },
+            {
+                "source": "D018269",
+                "target": "D006628",
+                "type": "D-D",
+                "value": "5.6052e-45"
+            },
+            {
+                "source": "D016889",
+                "target": "D010146",
+                "type": "D-D",
+                "value": "0.7492"
+            },
+            {
+                "source": "D016889",
+                "target": "D000073818",
+                "type": "D-D",
+                "value": "0.2508"
+            }
+        ]
+    },
+    "D009765": {
+        "pred": [
+            0.9993033409118652
+        ],
+        "nodes": [
+            {
+                "type": "M",
+                "ID": "MI0000070",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000115",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000438",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000069",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000489",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 3098,
+                "name": "hexokinase 1",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 89910,
+                "name": "ubiquitin protein ligase E3B",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 79728,
+                "name": "partner and localizer of BRCA2",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 6507,
+                "name": "solute carrier family 1 member 3",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 8195,
+                "name": "MKKS centrosomal shuttling protein",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D009765",
+                "name": "Obesity",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D010845",
+                "name": "Obesity Hypoventilation Syndrome",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D056128",
+                "name": "Obesity, Abdominal",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D000067329",
+                "name": "Obesity, Metabolically Benign",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D050177",
+                "name": "Overweight",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 5291,
+                "name": "phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 5294,
+                "name": "phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit gamma",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 5770,
+                "name": "protein tyrosine phosphatase non-receptor type 1",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 5599,
+                "name": "mitogen-activated protein kinase 8",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 2551,
+                "name": "GA binding protein transcription factor subunit alpha",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D007153",
+                "name": "Immunologic Deficiency Syndromes",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D006105",
+                "name": "Granulomatous Disease, Chronic",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D002609",
+                "name": "Chediak-Higashi Syndrome",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D007960",
+                "name": "Leukocyte Disorders",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D007589",
+                "name": "Job Syndrome",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D010585",
+                "name": "Phagocyte Bactericidal Dysfunction",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D010212",
+                "name": "Papilloma",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D018308",
+                "name": "Papilloma, Inverted",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D002822",
+                "name": "Choriocarcinoma",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D018268",
+                "name": "Adrenocortical Carcinoma",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D057090",
+                "name": "Eccrine Porocarcinoma",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D018266",
+                "name": "Adenocarcinoma, Sebaceous",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D002277",
+                "name": "Carcinoma",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D018279",
+                "name": "Carcinoma, Signet Ring Cell",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D010145",
+                "name": "Paget Disease, Extramammary",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D004820",
+                "name": "Epidermolysis Bullosa",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D016109",
+                "name": "Epidermolysis Bullosa, Junctional",
+                "level": 0
+            }
+        ],
+        "edges": [
+            {
+                "source": "MI0000489",
+                "target": "MI0000070",
+                "type": "M-M",
+                "value": "0.5000"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000115",
+                "type": "M-M",
+                "value": "0.4988"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000438",
+                "type": "M-M",
+                "value": "0.0012"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000069",
+                "type": "M-M",
+                "value": "0.0000"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000489",
+                "type": "M-M",
+                "value": "0.0000"
+            },
+            {
+                "source": "MI0000489",
+                "target": 3098,
+                "type": "M-P",
+                "value": "0.2889"
+            },
+            {
+                "source": "MI0000489",
+                "target": 89910,
+                "type": "M-P",
+                "value": "0.2184"
+            },
+            {
+                "source": "MI0000489",
+                "target": 79728,
+                "type": "M-P",
+                "value": "0.0807"
+            },
+            {
+                "source": "MI0000489",
+                "target": 6507,
+                "type": "M-P",
+                "value": "0.0726"
+            },
+            {
+                "source": "MI0000489",
+                "target": 8195,
+                "type": "M-P",
+                "value": "0.0400"
+            },
+            {
+                "source": "D009765",
+                "target": "D009765",
+                "type": "D-D",
+                "value": "0.7500"
+            },
+            {
+                "source": "D009765",
+                "target": "D010845",
+                "type": "D-D",
+                "value": "0.2336"
+            },
+            {
+                "source": "D009765",
+                "target": "D056128",
+                "type": "D-D",
+                "value": "0.0162"
+            },
+            {
+                "source": "D009765",
+                "target": "D000067329",
+                "type": "D-D",
+                "value": "0.0002"
+            },
+            {
+                "source": "D009765",
+                "target": "D050177",
+                "type": "D-D",
+                "value": "0.0001"
+            },
+            {
+                "source": "D009765",
+                "target": 5291,
+                "type": "D-P",
+                "value": "0.9492"
+            },
+            {
+                "source": "D009765",
+                "target": 5294,
+                "type": "D-P",
+                "value": "0.0508"
+            },
+            {
+                "source": "D009765",
+                "target": 5770,
+                "type": "D-P",
+                "value": "0.0000"
+            },
+            {
+                "source": "D009765",
+                "target": 5599,
+                "type": "D-P",
+                "value": "0.0000"
+            },
+            {
+                "source": "D009765",
+                "target": 2551,
+                "type": "D-P",
+                "value": "0.0000"
+            },
+            {
+                "source": "D009765",
+                "target": "D007153",
+                "type": "D-D",
+                "value": "1.0000"
+            },
+            {
+                "source": "D009765",
+                "target": "D006105",
+                "type": "D-D",
+                "value": "3.3421e-07"
+            },
+            {
+                "source": "D009765",
+                "target": "D002609",
+                "type": "D-D",
+                "value": "1.1308e-11"
+            },
+            {
+                "source": "D009765",
+                "target": "D007960",
+                "type": "D-D",
+                "value": "1.7397e-13"
+            },
+            {
+                "source": "D009765",
+                "target": "D007589",
+                "type": "D-D",
+                "value": "5.4647e-17"
+            },
+            {
+                "source": "D009765",
+                "target": "D010585",
+                "type": "D-D",
+                "value": "2.5365e-18"
+            },
+            {
+                "source": "D010845",
+                "target": "D010212",
+                "type": "D-D",
+                "value": "0.6205"
+            },
+            {
+                "source": "D010845",
+                "target": "D018308",
+                "type": "D-D",
+                "value": "0.3795"
+            },
+            {
+                "source": "D000067329",
+                "target": "D002822",
+                "type": "D-D",
+                "value": "0.3751"
+            },
+            {
+                "source": "D000067329",
+                "target": "D018268",
+                "type": "D-D",
+                "value": "0.3721"
+            },
+            {
+                "source": "D000067329",
+                "target": "D057090",
+                "type": "D-D",
+                "value": "0.2005"
+            },
+            {
+                "source": "D000067329",
+                "target": "D018266",
+                "type": "D-D",
+                "value": "0.0217"
+            },
+            {
+                "source": "D000067329",
+                "target": "D002277",
+                "type": "D-D",
+                "value": "0.0181"
+            },
+            {
+                "source": "D000067329",
+                "target": "D018279",
+                "type": "D-D",
+                "value": "0.0121"
+            },
+            {
+                "source": "D000067329",
+                "target": "D010145",
+                "type": "D-D",
+                "value": "0.0004"
+            },
+            {
+                "source": "MI0000489",
+                "target": "D002277",
+                "type": "M-D",
+                "value": 1
+            },
+            {
+                "source": "MI0000489",
+                "target": "D018266",
+                "type": "M-D",
+                "value": 1
+            },
+            {
+                "source": "MI0000489",
+                "target": "D018268",
+                "type": "M-D",
+                "value": 1
+            },
+            {
+                "source": "MI0000489",
+                "target": "D018268",
+                "type": "M-D",
+                "value": 1
+            },
+            {
+                "source": "MI0000489",
+                "target": "D018268",
+                "type": "M-D",
+                "value": 1
+            },
+            {
+                "source": "D050177",
+                "target": "D004820",
+                "type": "D-D",
+                "value": "1.0000"
+            },
+            {
+                "source": "D050177",
+                "target": "D016109",
+                "type": "D-D",
+                "value": "2.7202e-08"
+            }
+        ]
+    },
+    "D007674": {
+        "pred": [
+            0.997160792350769
+        ],
+        "nodes": [
+            {
+                "type": "M",
+                "ID": "MI0000070",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000115",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000438",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000069",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000489",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 3098,
+                "name": "hexokinase 1",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 89910,
+                "name": "ubiquitin protein ligase E3B",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 79728,
+                "name": "partner and localizer of BRCA2",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 6507,
+                "name": "solute carrier family 1 member 3",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 8195,
+                "name": "MKKS centrosomal shuttling protein",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D007680",
+                "name": "Kidney Neoplasms",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D006959",
+                "name": "Hyperoxaluria",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D010501",
+                "name": "Perinephritis",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D007673",
+                "name": "Kidney Cortex Necrosis",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D007681",
+                "name": "Kidney Papillary Necrosis",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 2551,
+                "name": "GA binding protein transcription factor subunit alpha",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 8437,
+                "name": "RAS protein activator like 1",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 2247,
+                "name": "fibroblast growth factor 2",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 6721,
+                "name": "sterol regulatory element binding transcription factor 2",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 842,
+                "name": "caspase 9",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D018455",
+                "name": "Protein S Deficiency",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D020151",
+                "name": "Protein C Deficiency",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D004211",
+                "name": "Disseminated Intravascular Coagulation",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D020016",
+                "name": "Activated Protein C Resistance",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D019851",
+                "name": "Thrombophilia",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D020152",
+                "name": "Antithrombin III Deficiency",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D006402",
+                "name": "Hematologic Diseases",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D010243",
+                "name": "Paralysis",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D011782",
+                "name": "Quadriplegia",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D014826",
+                "name": "Vocal Cord Paralysis",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D005158",
+                "name": "Facial Paralysis",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D012133",
+                "name": "Respiratory Paralysis",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D010264",
+                "name": "Paraplegia",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D020828",
+                "name": "Pseudobulbar Palsy",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D017689",
+                "name": "Polydactyly",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D054975",
+                "name": "Pallister-Hall Syndrome",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D007029",
+                "name": "Hypothalamic Neoplasms",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D000015",
+                "name": "Abnormalities, Multiple",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D006222",
+                "name": "Hamartoma",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D001778",
+                "name": "Blood Coagulation Disorders",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D006474",
+                "name": "Hemorrhagic Disorders",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D013436",
+                "name": "Sulfhemoglobinemia",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D008708",
+                "name": "Methemoglobinemia",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D011086",
+                "name": "Polycythemia",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D000740",
+                "name": "Anemia",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D006453",
+                "name": "Hemoglobinopathies",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D011289",
+                "name": "Preleukemia",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D065227",
+                "name": "Transfusion Reaction",
+                "level": 0
+            }
+        ],
+        "edges": [
+            {
+                "source": "MI0000489",
+                "target": "MI0000070",
+                "type": "M-M",
+                "value": "0.5000"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000115",
+                "type": "M-M",
+                "value": "0.4988"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000438",
+                "type": "M-M",
+                "value": "0.0012"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000069",
+                "type": "M-M",
+                "value": "0.0000"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000489",
+                "type": "M-M",
+                "value": "0.0000"
+            },
+            {
+                "source": "MI0000489",
+                "target": 3098,
+                "type": "M-P",
+                "value": "0.2889"
+            },
+            {
+                "source": "MI0000489",
+                "target": 89910,
+                "type": "M-P",
+                "value": "0.2184"
+            },
+            {
+                "source": "MI0000489",
+                "target": 79728,
+                "type": "M-P",
+                "value": "0.0807"
+            },
+            {
+                "source": "MI0000489",
+                "target": 6507,
+                "type": "M-P",
+                "value": "0.0726"
+            },
+            {
+                "source": "MI0000489",
+                "target": 8195,
+                "type": "M-P",
+                "value": "0.0400"
+            },
+            {
+                "source": "D007674",
+                "target": "D007680",
+                "type": "D-D",
+                "value": "0.7485"
+            },
+            {
+                "source": "D007674",
+                "target": "D006959",
+                "type": "D-D",
+                "value": "0.0775"
+            },
+            {
+                "source": "D007674",
+                "target": "D010501",
+                "type": "D-D",
+                "value": "0.0748"
+            },
+            {
+                "source": "D007674",
+                "target": "D007673",
+                "type": "D-D",
+                "value": "0.0560"
+            },
+            {
+                "source": "D007674",
+                "target": "D007681",
+                "type": "D-D",
+                "value": "0.0260"
+            },
+            {
+                "source": "D007674",
+                "target": 2551,
+                "type": "D-P",
+                "value": "0.9915"
+            },
+            {
+                "source": "D007674",
+                "target": 8437,
+                "type": "D-P",
+                "value": "0.0041"
+            },
+            {
+                "source": "D007674",
+                "target": 2247,
+                "type": "D-P",
+                "value": "0.0023"
+            },
+            {
+                "source": "D007674",
+                "target": 6721,
+                "type": "D-P",
+                "value": "0.0020"
+            },
+            {
+                "source": "D007674",
+                "target": 842,
+                "type": "D-P",
+                "value": "0.0000"
+            },
+            {
+                "source": "D007680",
+                "target": "D018455",
+                "type": "D-D",
+                "value": "0.6951"
+            },
+            {
+                "source": "D007680",
+                "target": "D020151",
+                "type": "D-D",
+                "value": "0.3022"
+            },
+            {
+                "source": "D007680",
+                "target": "D004211",
+                "type": "D-D",
+                "value": "0.0027"
+            },
+            {
+                "source": "D007680",
+                "target": "D020016",
+                "type": "D-D",
+                "value": "1.1305e-17"
+            },
+            {
+                "source": "D007680",
+                "target": "D019851",
+                "type": "D-D",
+                "value": "8.9887e-22"
+            },
+            {
+                "source": "D007680",
+                "target": "D020152",
+                "type": "D-D",
+                "value": "8.1839e-25"
+            },
+            {
+                "source": "D007680",
+                "target": "D006402",
+                "type": "D-D",
+                "value": "4.2612e-32"
+            },
+            {
+                "source": "D006959",
+                "target": "D010243",
+                "type": "D-D",
+                "value": "0.9497"
+            },
+            {
+                "source": "D006959",
+                "target": "D011782",
+                "type": "D-D",
+                "value": "0.0401"
+            },
+            {
+                "source": "D006959",
+                "target": "D014826",
+                "type": "D-D",
+                "value": "0.0093"
+            },
+            {
+                "source": "D006959",
+                "target": "D005158",
+                "type": "D-D",
+                "value": "0.0009"
+            },
+            {
+                "source": "D006959",
+                "target": "D012133",
+                "type": "D-D",
+                "value": "9.1901e-06"
+            },
+            {
+                "source": "D006959",
+                "target": "D010264",
+                "type": "D-D",
+                "value": "1.8025e-06"
+            },
+            {
+                "source": "D006959",
+                "target": "D020828",
+                "type": "D-D",
+                "value": "1.0319e-06"
+            },
+            {
+                "source": "D010501",
+                "target": "D017689",
+                "type": "D-D",
+                "value": "0.5967"
+            },
+            {
+                "source": "D010501",
+                "target": "D054975",
+                "type": "D-D",
+                "value": "0.4000"
+            },
+            {
+                "source": "D010501",
+                "target": "D007029",
+                "type": "D-D",
+                "value": "0.0033"
+            },
+            {
+                "source": "D010501",
+                "target": "D000015",
+                "type": "D-D",
+                "value": "4.6446e-09"
+            },
+            {
+                "source": "D010501",
+                "target": "D006222",
+                "type": "D-D",
+                "value": "2.3173e-09"
+            },
+            {
+                "source": "D007673",
+                "target": "D004211",
+                "type": "D-D",
+                "value": "1.0000"
+            },
+            {
+                "source": "D007673",
+                "target": "D001778",
+                "type": "D-D",
+                "value": "4.5967e-19"
+            },
+            {
+                "source": "D007673",
+                "target": "D006474",
+                "type": "D-D",
+                "value": "2.1475e-20"
+            },
+            {
+                "source": "D007673",
+                "target": "D019851",
+                "type": "D-D",
+                "value": "1.4651e-20"
+            },
+            {
+                "source": "D007681",
+                "target": "D013436",
+                "type": "D-D",
+                "value": "1.0000"
+            },
+            {
+                "source": "D007681",
+                "target": "D008708",
+                "type": "D-D",
+                "value": "1.7922e-14"
+            },
+            {
+                "source": "D007681",
+                "target": "D011086",
+                "type": "D-D",
+                "value": "7.3398e-21"
+            },
+            {
+                "source": "D007681",
+                "target": "D000740",
+                "type": "D-D",
+                "value": "3.1098e-23"
+            },
+            {
+                "source": "D007681",
+                "target": "D006453",
+                "type": "D-D",
+                "value": "1.1509e-23"
+            },
+            {
+                "source": "D007681",
+                "target": "D011289",
+                "type": "D-D",
+                "value": "5.6632e-26"
+            },
+            {
+                "source": "D007681",
+                "target": "D065227",
+                "type": "D-D",
+                "value": "2.6666e-26"
+            }
+        ]
+    },
+    "D011565": {
+        "pred": [
+            0.9963964819908142
+        ],
+        "nodes": [
+            {
+                "type": "M",
+                "ID": "MI0000070",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000115",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000438",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000069",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000489",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 3098,
+                "name": "hexokinase 1",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 89910,
+                "name": "ubiquitin protein ligase E3B",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 79728,
+                "name": "partner and localizer of BRCA2",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 6507,
+                "name": "solute carrier family 1 member 3",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 8195,
+                "name": "MKKS centrosomal shuttling protein",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D011565",
+                "name": "Psoriasis",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D017444",
+                "name": "Skin Diseases, Papulosquamous",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D015535",
+                "name": "Arthritis, Psoriatic",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 8771,
+                "name": "TNF receptor superfamily member 6b",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 5771,
+                "name": "protein tyrosine phosphatase non-receptor type 2",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 5967,
+                "name": "regenerating family member 1 alpha",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 29785,
+                "name": "cytochrome P450 family 2 subfamily S member 1",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 8935,
+                "name": "src kinase associated phosphoprotein 2",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D003926",
+                "name": "Diabetic Coma",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D048909",
+                "name": "Diabetes Complications",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D006944",
+                "name": "Hyperglycemic Hyperosmolar Nonketotic Coma",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D012421",
+                "name": "Rupture",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D000070636",
+                "name": "Rotator Cuff Injuries",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D013708",
+                "name": "Tendon Injuries",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D000070599",
+                "name": "Shoulder Injuries",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D010019",
+                "name": "Osteomyelitis",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D008417",
+                "name": "Mastoiditis",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D010033",
+                "name": "Otitis Media",
+                "level": 0
+            }
+        ],
+        "edges": [
+            {
+                "source": "MI0000489",
+                "target": "MI0000070",
+                "type": "M-M",
+                "value": "0.5000"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000115",
+                "type": "M-M",
+                "value": "0.4988"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000438",
+                "type": "M-M",
+                "value": "0.0012"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000069",
+                "type": "M-M",
+                "value": "0.0000"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000489",
+                "type": "M-M",
+                "value": "0.0000"
+            },
+            {
+                "source": "MI0000489",
+                "target": 3098,
+                "type": "M-P",
+                "value": "0.2889"
+            },
+            {
+                "source": "MI0000489",
+                "target": 89910,
+                "type": "M-P",
+                "value": "0.2184"
+            },
+            {
+                "source": "MI0000489",
+                "target": 79728,
+                "type": "M-P",
+                "value": "0.0807"
+            },
+            {
+                "source": "MI0000489",
+                "target": 6507,
+                "type": "M-P",
+                "value": "0.0726"
+            },
+            {
+                "source": "MI0000489",
+                "target": 8195,
+                "type": "M-P",
+                "value": "0.0400"
+            },
+            {
+                "source": "D011565",
+                "target": "D011565",
+                "type": "D-D",
+                "value": "0.7365"
+            },
+            {
+                "source": "D011565",
+                "target": "D017444",
+                "type": "D-D",
+                "value": "0.2500"
+            },
+            {
+                "source": "D011565",
+                "target": "D015535",
+                "type": "D-D",
+                "value": "0.0135"
+            },
+            {
+                "source": "D011565",
+                "target": 8771,
+                "type": "D-P",
+                "value": "0.8573"
+            },
+            {
+                "source": "D011565",
+                "target": 5771,
+                "type": "D-P",
+                "value": "0.0622"
+            },
+            {
+                "source": "D011565",
+                "target": 5967,
+                "type": "D-P",
+                "value": "0.0197"
+            },
+            {
+                "source": "D011565",
+                "target": 29785,
+                "type": "D-P",
+                "value": "0.0173"
+            },
+            {
+                "source": "D011565",
+                "target": 8935,
+                "type": "D-P",
+                "value": "0.0094"
+            },
+            {
+                "source": "D011565",
+                "target": "D003926",
+                "type": "D-D",
+                "value": "1.0000"
+            },
+            {
+                "source": "D011565",
+                "target": "D048909",
+                "type": "D-D",
+                "value": "1.3518e-08"
+            },
+            {
+                "source": "D011565",
+                "target": "D006944",
+                "type": "D-D",
+                "value": "1.1414e-13"
+            },
+            {
+                "source": "D017444",
+                "target": "D012421",
+                "type": "D-D",
+                "value": "0.9967"
+            },
+            {
+                "source": "D017444",
+                "target": "D000070636",
+                "type": "D-D",
+                "value": "0.0032"
+            },
+            {
+                "source": "D017444",
+                "target": "D013708",
+                "type": "D-D",
+                "value": "0.0001"
+            },
+            {
+                "source": "D017444",
+                "target": "D000070599",
+                "type": "D-D",
+                "value": "1.6114e-12"
+            },
+            {
+                "source": "D015535",
+                "target": "D010019",
+                "type": "D-D",
+                "value": "1.0000"
+            },
+            {
+                "source": "D015535",
+                "target": "D008417",
+                "type": "D-D",
+                "value": "9.0435e-16"
+            },
+            {
+                "source": "D015535",
+                "target": "D010033",
+                "type": "D-D",
+                "value": "7.9603e-17"
+            }
+        ]
+    },
+    "D006509": {
+        "pred": [
+            0.9909570217132568
+        ],
+        "nodes": [
+            {
+                "type": "M",
+                "ID": "MI0000070",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000115",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000438",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000069",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000489",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 3098,
+                "name": "hexokinase 1",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 89910,
+                "name": "ubiquitin protein ligase E3B",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 79728,
+                "name": "partner and localizer of BRCA2",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 6507,
+                "name": "solute carrier family 1 member 3",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 8195,
+                "name": "MKKS centrosomal shuttling protein",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D019694",
+                "name": "Hepatitis B, Chronic",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D006525",
+                "name": "Hepatitis, Viral, Human",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D018347",
+                "name": "Hepadnaviridae Infections",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D006509",
+                "name": "Hepatitis B",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D000086982",
+                "name": "Blood-Borne Infections",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 5218,
+                "name": "cyclin dependent kinase 14",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 6941,
+                "name": "transcription factor 19",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 7923,
+                "name": "hydroxysteroid 17-beta dehydrogenase 8",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 3455,
+                "name": "interferon alpha and beta receptor subunit 2",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 2078,
+                "name": "ETS transcription factor ERG",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D011008",
+                "name": "Pneumococcal Infections",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D013290",
+                "name": "Streptococcal Infections",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D011018",
+                "name": "Pneumonia, Pneumococcal",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D008586",
+                "name": "Meningitis, Pneumococcal",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D007565",
+                "name": "Jaundice",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D041781",
+                "name": "Jaundice, Obstructive",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D006932",
+                "name": "Hyperbilirubinemia",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D012877",
+                "name": "Skin Manifestations",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D000382",
+                "name": "Agricultural Workers' Diseases",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D012832",
+                "name": "Silo Filler's Disease",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D000542",
+                "name": "Alveolitis, Extrinsic Allergic",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D007417",
+                "name": "Intestinal Polyps",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D011127",
+                "name": "Polyps",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D009298",
+                "name": "Nasal Polyps",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D020763",
+                "name": "Pathological Conditions, Anatomical",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D002524",
+                "name": "Cerebellar Ataxia",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D003616",
+                "name": "Dandy-Walker Syndrome",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D013132",
+                "name": "Spinocerebellar Degenerations",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D002526",
+                "name": "Cerebellar Diseases",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D001927",
+                "name": "Brain Diseases",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D020362",
+                "name": "Paraneoplastic Cerebellar Degeneration",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D019846",
+                "name": "Miller Fisher Syndrome",
+                "level": 0
+            }
+        ],
+        "edges": [
+            {
+                "source": "MI0000489",
+                "target": "MI0000070",
+                "type": "M-M",
+                "value": "0.5000"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000115",
+                "type": "M-M",
+                "value": "0.4988"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000438",
+                "type": "M-M",
+                "value": "0.0012"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000069",
+                "type": "M-M",
+                "value": "0.0000"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000489",
+                "type": "M-M",
+                "value": "0.0000"
+            },
+            {
+                "source": "MI0000489",
+                "target": 3098,
+                "type": "M-P",
+                "value": "0.2889"
+            },
+            {
+                "source": "MI0000489",
+                "target": 89910,
+                "type": "M-P",
+                "value": "0.2184"
+            },
+            {
+                "source": "MI0000489",
+                "target": 79728,
+                "type": "M-P",
+                "value": "0.0807"
+            },
+            {
+                "source": "MI0000489",
+                "target": 6507,
+                "type": "M-P",
+                "value": "0.0726"
+            },
+            {
+                "source": "MI0000489",
+                "target": 8195,
+                "type": "M-P",
+                "value": "0.0400"
+            },
+            {
+                "source": "D006509",
+                "target": "D019694",
+                "type": "D-D",
+                "value": "0.7479"
+            },
+            {
+                "source": "D006509",
+                "target": "D006525",
+                "type": "D-D",
+                "value": "0.2258"
+            },
+            {
+                "source": "D006509",
+                "target": "D018347",
+                "type": "D-D",
+                "value": "0.0215"
+            },
+            {
+                "source": "D006509",
+                "target": "D006509",
+                "type": "D-D",
+                "value": "0.0032"
+            },
+            {
+                "source": "D006509",
+                "target": "D000086982",
+                "type": "D-D",
+                "value": "0.0015"
+            },
+            {
+                "source": "D006509",
+                "target": 5218,
+                "type": "D-P",
+                "value": "0.6020"
+            },
+            {
+                "source": "D006509",
+                "target": 6941,
+                "type": "D-P",
+                "value": "0.2459"
+            },
+            {
+                "source": "D006509",
+                "target": 7923,
+                "type": "D-P",
+                "value": "0.0980"
+            },
+            {
+                "source": "D006509",
+                "target": 3455,
+                "type": "D-P",
+                "value": "0.0413"
+            },
+            {
+                "source": "D006509",
+                "target": 2078,
+                "type": "D-P",
+                "value": "0.0127"
+            },
+            {
+                "source": "D019694",
+                "target": "D011008",
+                "type": "D-D",
+                "value": "1.0000"
+            },
+            {
+                "source": "D019694",
+                "target": "D013290",
+                "type": "D-D",
+                "value": "7.8532e-10"
+            },
+            {
+                "source": "D019694",
+                "target": "D011018",
+                "type": "D-D",
+                "value": "4.1824e-15"
+            },
+            {
+                "source": "D019694",
+                "target": "D008586",
+                "type": "D-D",
+                "value": "1.3194e-21"
+            },
+            {
+                "source": "D006525",
+                "target": "D007565",
+                "type": "D-D",
+                "value": "0.9870"
+            },
+            {
+                "source": "D006525",
+                "target": "D041781",
+                "type": "D-D",
+                "value": "0.0130"
+            },
+            {
+                "source": "D006525",
+                "target": "D006932",
+                "type": "D-D",
+                "value": "1.3936e-06"
+            },
+            {
+                "source": "D006525",
+                "target": "D012877",
+                "type": "D-D",
+                "value": "6.7115e-10"
+            },
+            {
+                "source": "D018347",
+                "target": "D000382",
+                "type": "D-D",
+                "value": "0.7755"
+            },
+            {
+                "source": "D018347",
+                "target": "D012832",
+                "type": "D-D",
+                "value": "0.2245"
+            },
+            {
+                "source": "D018347",
+                "target": "D000542",
+                "type": "D-D",
+                "value": "4.6860e-08"
+            },
+            {
+                "source": "D006509",
+                "target": "D007417",
+                "type": "D-D",
+                "value": "0.8366"
+            },
+            {
+                "source": "D006509",
+                "target": "D011127",
+                "type": "D-D",
+                "value": "0.1634"
+            },
+            {
+                "source": "D006509",
+                "target": "D009298",
+                "type": "D-D",
+                "value": "6.9804e-08"
+            },
+            {
+                "source": "D006509",
+                "target": "D020763",
+                "type": "D-D",
+                "value": "7.0153e-10"
+            },
+            {
+                "source": "D000086982",
+                "target": "D002524",
+                "type": "D-D",
+                "value": "0.6088"
+            },
+            {
+                "source": "D000086982",
+                "target": "D003616",
+                "type": "D-D",
+                "value": "0.2500"
+            },
+            {
+                "source": "D000086982",
+                "target": "D013132",
+                "type": "D-D",
+                "value": "0.1411"
+            },
+            {
+                "source": "D000086982",
+                "target": "D002526",
+                "type": "D-D",
+                "value": "5.4813e-05"
+            },
+            {
+                "source": "D000086982",
+                "target": "D001927",
+                "type": "D-D",
+                "value": "1.2514e-06"
+            },
+            {
+                "source": "D000086982",
+                "target": "D020362",
+                "type": "D-D",
+                "value": "2.3159e-07"
+            },
+            {
+                "source": "D000086982",
+                "target": "D019846",
+                "type": "D-D",
+                "value": "2.1199e-09"
+            },
+            {
+                "source": "MI0000489",
+                "target": "D001927",
+                "type": "M-D",
+                "value": 1
+            }
+        ]
+    },
+    "D003924": {
+        "pred": [
+            0.996100902557373
+        ],
+        "nodes": [
+            {
+                "type": "M",
+                "ID": "MI0000070",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000115",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000438",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000069",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000489",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 3098,
+                "name": "hexokinase 1",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 89910,
+                "name": "ubiquitin protein ligase E3B",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 79728,
+                "name": "partner and localizer of BRCA2",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 6507,
+                "name": "solute carrier family 1 member 3",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 8195,
+                "name": "MKKS centrosomal shuttling protein",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D003924",
+                "name": "Diabetes Mellitus, Type 2",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D003923",
+                "name": "Diabetes Mellitus, Lipoatrophic",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D003920",
+                "name": "Diabetes Mellitus",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 5291,
+                "name": "phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 5294,
+                "name": "phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit gamma",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 84164,
+                "name": "activating signal cointegrator 1 complex subunit 2",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 1852,
+                "name": "dual specificity phosphatase 9",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 5595,
+                "name": "mitogen-activated protein kinase 3",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D000077428",
+                "name": "GATA2 Deficiency",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D006457",
+                "name": "Hemoglobinuria, Paroxysmal",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D000753",
+                "name": "Anemia, Refractory",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D009190",
+                "name": "Myelodysplastic Syndromes",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D001855",
+                "name": "Bone Marrow Diseases",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D000756",
+                "name": "Anemia, Sideroblastic",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D034381",
+                "name": "Hearing Loss",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D011304",
+                "name": "Presbycusis",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D052245",
+                "name": "Usher Syndromes",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D006313",
+                "name": "Hearing Loss, Central",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D006319",
+                "name": "Hearing Loss, Sensorineural",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D006317",
+                "name": "Hearing Loss, Noise-Induced",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D009914",
+                "name": "Oral Submucous Fibrosis",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D009059",
+                "name": "Mouth Diseases",
+                "level": 0
+            }
+        ],
+        "edges": [
+            {
+                "source": "MI0000489",
+                "target": "MI0000070",
+                "type": "M-M",
+                "value": "0.5000"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000115",
+                "type": "M-M",
+                "value": "0.4988"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000438",
+                "type": "M-M",
+                "value": "0.0012"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000069",
+                "type": "M-M",
+                "value": "0.0000"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000489",
+                "type": "M-M",
+                "value": "0.0000"
+            },
+            {
+                "source": "MI0000489",
+                "target": 3098,
+                "type": "M-P",
+                "value": "0.2889"
+            },
+            {
+                "source": "MI0000489",
+                "target": 89910,
+                "type": "M-P",
+                "value": "0.2184"
+            },
+            {
+                "source": "MI0000489",
+                "target": 79728,
+                "type": "M-P",
+                "value": "0.0807"
+            },
+            {
+                "source": "MI0000489",
+                "target": 6507,
+                "type": "M-P",
+                "value": "0.0726"
+            },
+            {
+                "source": "MI0000489",
+                "target": 8195,
+                "type": "M-P",
+                "value": "0.0400"
+            },
+            {
+                "source": "D003924",
+                "target": "D003924",
+                "type": "D-D",
+                "value": "0.7507"
+            },
+            {
+                "source": "D003924",
+                "target": "D003923",
+                "type": "D-D",
+                "value": "0.2382"
+            },
+            {
+                "source": "D003924",
+                "target": "D003920",
+                "type": "D-D",
+                "value": "0.0112"
+            },
+            {
+                "source": "D003924",
+                "target": 5291,
+                "type": "D-P",
+                "value": "0.8650"
+            },
+            {
+                "source": "D003924",
+                "target": 5294,
+                "type": "D-P",
+                "value": "0.0934"
+            },
+            {
+                "source": "D003924",
+                "target": 84164,
+                "type": "D-P",
+                "value": "0.0166"
+            },
+            {
+                "source": "D003924",
+                "target": 1852,
+                "type": "D-P",
+                "value": "0.0111"
+            },
+            {
+                "source": "D003924",
+                "target": 5595,
+                "type": "D-P",
+                "value": "0.0065"
+            },
+            {
+                "source": "D003924",
+                "target": "D000077428",
+                "type": "D-D",
+                "value": "0.7547"
+            },
+            {
+                "source": "D003924",
+                "target": "D006457",
+                "type": "D-D",
+                "value": "0.2449"
+            },
+            {
+                "source": "D003924",
+                "target": "D000753",
+                "type": "D-D",
+                "value": "0.0004"
+            },
+            {
+                "source": "D003924",
+                "target": "D009190",
+                "type": "D-D",
+                "value": "1.2637e-05"
+            },
+            {
+                "source": "D003924",
+                "target": "D001855",
+                "type": "D-D",
+                "value": "2.7368e-17"
+            },
+            {
+                "source": "D003924",
+                "target": "D000756",
+                "type": "D-D",
+                "value": "7.4175e-23"
+            },
+            {
+                "source": "D003923",
+                "target": "D034381",
+                "type": "D-D",
+                "value": "0.7500"
+            },
+            {
+                "source": "D003923",
+                "target": "D011304",
+                "type": "D-D",
+                "value": "0.2500"
+            },
+            {
+                "source": "D003923",
+                "target": "D052245",
+                "type": "D-D",
+                "value": "3.5816e-07"
+            },
+            {
+                "source": "D003923",
+                "target": "D006313",
+                "type": "D-D",
+                "value": "3.0308e-07"
+            },
+            {
+                "source": "D003923",
+                "target": "D006319",
+                "type": "D-D",
+                "value": "8.0998e-11"
+            },
+            {
+                "source": "D003923",
+                "target": "D006317",
+                "type": "D-D",
+                "value": "1.0102e-16"
+            },
+            {
+                "source": "D003920",
+                "target": "D009914",
+                "type": "D-D",
+                "value": "1.0000"
+            },
+            {
+                "source": "D003920",
+                "target": "D009059",
+                "type": "D-D",
+                "value": "4.3011e-11"
+            }
+        ]
+    },
+    "D000083242": {
+        "pred": [
+            0.9762090444564819
+        ],
+        "nodes": [
+            {
+                "type": "M",
+                "ID": "MI0000070",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000115",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000438",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000069",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000489",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 3098,
+                "name": "hexokinase 1",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 89910,
+                "name": "ubiquitin protein ligase E3B",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 79728,
+                "name": "partner and localizer of BRCA2",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 6507,
+                "name": "solute carrier family 1 member 3",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 8195,
+                "name": "MKKS centrosomal shuttling protein",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D020521",
+                "name": "Stroke",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D000083244",
+                "name": "Thrombotic Stroke",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D000083242",
+                "name": "Ischemic Stroke",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D000083262",
+                "name": "Embolic Stroke",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D052456",
+                "name": "Hypoalphalipoproteinemias",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D007863",
+                "name": "Lecithin Cholesterol Acyltransferase Deficiency",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D021921",
+                "name": "Aortic Stenosis, Supravalvular",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D001024",
+                "name": "Aortic Valve Stenosis",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D018980",
+                "name": "Williams Syndrome",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D001020",
+                "name": "Aortic Stenosis, Subvalvular",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D002312",
+                "name": "Cardiomyopathy, Hypertrophic",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D021922",
+                "name": "Discrete Subaortic Stenosis",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D011666",
+                "name": "Pulmonary Valve Stenosis",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D014694",
+                "name": "Ventricular Outflow Obstruction",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D006331",
+                "name": "Heart Diseases",
+                "level": 0
+            }
+        ],
+        "edges": [
+            {
+                "source": "MI0000489",
+                "target": "MI0000070",
+                "type": "M-M",
+                "value": "0.5000"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000115",
+                "type": "M-M",
+                "value": "0.4988"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000438",
+                "type": "M-M",
+                "value": "0.0012"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000069",
+                "type": "M-M",
+                "value": "0.0000"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000489",
+                "type": "M-M",
+                "value": "0.0000"
+            },
+            {
+                "source": "MI0000489",
+                "target": 3098,
+                "type": "M-P",
+                "value": "0.2889"
+            },
+            {
+                "source": "MI0000489",
+                "target": 89910,
+                "type": "M-P",
+                "value": "0.2184"
+            },
+            {
+                "source": "MI0000489",
+                "target": 79728,
+                "type": "M-P",
+                "value": "0.0807"
+            },
+            {
+                "source": "MI0000489",
+                "target": 6507,
+                "type": "M-P",
+                "value": "0.0726"
+            },
+            {
+                "source": "MI0000489",
+                "target": 8195,
+                "type": "M-P",
+                "value": "0.0400"
+            },
+            {
+                "source": "D000083242",
+                "target": "D020521",
+                "type": "D-D",
+                "value": "0.7500"
+            },
+            {
+                "source": "D000083242",
+                "target": "D000083244",
+                "type": "D-D",
+                "value": "0.2351"
+            },
+            {
+                "source": "D000083242",
+                "target": "D000083242",
+                "type": "D-D",
+                "value": "0.0088"
+            },
+            {
+                "source": "D000083242",
+                "target": "D000083262",
+                "type": "D-D",
+                "value": "0.0060"
+            },
+            {
+                "source": "D020521",
+                "target": "D052456",
+                "type": "D-D",
+                "value": "0.9557"
+            },
+            {
+                "source": "D020521",
+                "target": "D007863",
+                "type": "D-D",
+                "value": "0.0443"
+            },
+            {
+                "source": "D000083244",
+                "target": "D021921",
+                "type": "D-D",
+                "value": "0.7603"
+            },
+            {
+                "source": "D000083244",
+                "target": "D001024",
+                "type": "D-D",
+                "value": "0.2300"
+            },
+            {
+                "source": "D000083244",
+                "target": "D018980",
+                "type": "D-D",
+                "value": "0.0097"
+            },
+            {
+                "source": "MI0000489",
+                "target": "D001024",
+                "type": "M-D",
+                "value": 1
+            },
+            {
+                "source": "MI0000489",
+                "target": "D001024",
+                "type": "M-D",
+                "value": 1
+            },
+            {
+                "source": "D000083242",
+                "target": "D001020",
+                "type": "D-D",
+                "value": "0.4045"
+            },
+            {
+                "source": "D000083242",
+                "target": "D002312",
+                "type": "D-D",
+                "value": "0.2972"
+            },
+            {
+                "source": "D000083242",
+                "target": "D001024",
+                "type": "D-D",
+                "value": "0.2944"
+            },
+            {
+                "source": "D000083242",
+                "target": "D021922",
+                "type": "D-D",
+                "value": "0.0039"
+            },
+            {
+                "source": "MI0000489",
+                "target": "D001024",
+                "type": "M-D",
+                "value": 1
+            },
+            {
+                "source": "MI0000489",
+                "target": "D001024",
+                "type": "M-D",
+                "value": 1
+            },
+            {
+                "source": "MI0000489",
+                "target": "D002312",
+                "type": "M-D",
+                "value": 1
+            },
+            {
+                "source": "D000083262",
+                "target": "D011666",
+                "type": "D-D",
+                "value": "0.9999"
+            },
+            {
+                "source": "D000083262",
+                "target": "D014694",
+                "type": "D-D",
+                "value": "7.9874e-05"
+            },
+            {
+                "source": "D000083262",
+                "target": "D001024",
+                "type": "D-D",
+                "value": "2.7833e-07"
+            },
+            {
+                "source": "D000083262",
+                "target": "D006331",
+                "type": "D-D",
+                "value": "1.3353e-41"
+            },
+            {
+                "source": "MI0000489",
+                "target": "D001024",
+                "type": "M-D",
+                "value": 1
+            },
+            {
+                "source": "MI0000489",
+                "target": "D001024",
+                "type": "M-D",
+                "value": 1
+            }
+        ]
+    },
+    "D018269": {
+        "pred": [
+            0.9867702722549438
+        ],
+        "nodes": [
+            {
+                "type": "M",
+                "ID": "MI0000070",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000115",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000438",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000069",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000489",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 3098,
+                "name": "hexokinase 1",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 89910,
+                "name": "ubiquitin protein ligase E3B",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 79728,
+                "name": "partner and localizer of BRCA2",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 6507,
+                "name": "solute carrier family 1 member 3",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 8195,
+                "name": "MKKS centrosomal shuttling protein",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D010051",
+                "name": "Ovarian Neoplasms",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D016889",
+                "name": "Endometrial Neoplasms",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D018269",
+                "name": "Carcinoma, Endometrioid",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D000230",
+                "name": "Adenocarcinoma",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 10232,
+                "name": "mesothelin",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 2099,
+                "name": "estrogen receptor 1",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 7157,
+                "name": "tumor protein p53",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 8289,
+                "name": "AT-rich interaction domain 1A",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 5728,
+                "name": "phosphatase and tensin homolog",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D018190",
+                "name": "Lymphatic Vessel Tumors",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D009370",
+                "name": "Neoplasms by Histologic Type",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D008204",
+                "name": "Lymphangiosarcoma",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D008202",
+                "name": "Lymphangioma",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D008203",
+                "name": "Lymphangiomyoma",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D001845",
+                "name": "Bone Cysts",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D017824",
+                "name": "Bone Cysts, Aneurysmal",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D020886",
+                "name": "Somatosensory Disorders",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D006930",
+                "name": "Hyperalgesia",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D030342",
+                "name": "Genetic Diseases, Inborn",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D024741",
+                "name": "Cardiomyopathy, Hypertrophic, Familial",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D002312",
+                "name": "Cardiomyopathy, Hypertrophic",
+                "level": 0
+            }
+        ],
+        "edges": [
+            {
+                "source": "MI0000489",
+                "target": "MI0000070",
+                "type": "M-M",
+                "value": "0.5000"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000115",
+                "type": "M-M",
+                "value": "0.4988"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000438",
+                "type": "M-M",
+                "value": "0.0012"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000069",
+                "type": "M-M",
+                "value": "0.0000"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000489",
+                "type": "M-M",
+                "value": "0.0000"
+            },
+            {
+                "source": "MI0000489",
+                "target": 3098,
+                "type": "M-P",
+                "value": "0.2889"
+            },
+            {
+                "source": "MI0000489",
+                "target": 89910,
+                "type": "M-P",
+                "value": "0.2184"
+            },
+            {
+                "source": "MI0000489",
+                "target": 79728,
+                "type": "M-P",
+                "value": "0.0807"
+            },
+            {
+                "source": "MI0000489",
+                "target": 6507,
+                "type": "M-P",
+                "value": "0.0726"
+            },
+            {
+                "source": "MI0000489",
+                "target": 8195,
+                "type": "M-P",
+                "value": "0.0400"
+            },
+            {
+                "source": "D018269",
+                "target": "D010051",
+                "type": "D-D",
+                "value": "0.7497"
+            },
+            {
+                "source": "D018269",
+                "target": "D016889",
+                "type": "D-D",
+                "value": "0.1736"
+            },
+            {
+                "source": "D018269",
+                "target": "D018269",
+                "type": "D-D",
+                "value": "0.0761"
+            },
+            {
+                "source": "D018269",
+                "target": "D000230",
+                "type": "D-D",
+                "value": "0.0006"
+            },
+            {
+                "source": "D018269",
+                "target": 10232,
+                "type": "D-P",
+                "value": "0.9999"
+            },
+            {
+                "source": "D018269",
+                "target": 2099,
+                "type": "D-P",
+                "value": "0.0001"
+            },
+            {
+                "source": "D018269",
+                "target": 7157,
+                "type": "D-P",
+                "value": "0.0001"
+            },
+            {
+                "source": "D018269",
+                "target": 8289,
+                "type": "D-P",
+                "value": "0.0000"
+            },
+            {
+                "source": "D018269",
+                "target": 5728,
+                "type": "D-P",
+                "value": "0.0000"
+            },
+            {
+                "source": "D010051",
+                "target": "D018190",
+                "type": "D-D",
+                "value": "0.5001"
+            },
+            {
+                "source": "D010051",
+                "target": "D009370",
+                "type": "D-D",
+                "value": "0.4999"
+            },
+            {
+                "source": "D010051",
+                "target": "D008204",
+                "type": "D-D",
+                "value": "1.5621e-07"
+            },
+            {
+                "source": "D010051",
+                "target": "D008202",
+                "type": "D-D",
+                "value": "1.0889e-08"
+            },
+            {
+                "source": "D010051",
+                "target": "D008203",
+                "type": "D-D",
+                "value": "4.2650e-14"
+            },
+            {
+                "source": "D016889",
+                "target": "D001845",
+                "type": "D-D",
+                "value": "1.0000"
+            },
+            {
+                "source": "D016889",
+                "target": "D017824",
+                "type": "D-D",
+                "value": "1.1044e-14"
+            },
+            {
+                "source": "D018269",
+                "target": "D020886",
+                "type": "D-D",
+                "value": "1.0000"
+            },
+            {
+                "source": "D018269",
+                "target": "D006930",
+                "type": "D-D",
+                "value": "1.2674e-25"
+            },
+            {
+                "source": "D000230",
+                "target": "D030342",
+                "type": "D-D",
+                "value": "0.9776"
+            },
+            {
+                "source": "D000230",
+                "target": "D024741",
+                "type": "D-D",
+                "value": "0.0160"
+            },
+            {
+                "source": "D000230",
+                "target": "D002312",
+                "type": "D-D",
+                "value": "0.0064"
+            },
+            {
+                "source": "MI0000489",
+                "target": "D002312",
+                "type": "M-D",
+                "value": 1
+            }
+        ]
+    },
+    "D058186": {
+        "pred": [
+            0.9558975696563721
+        ],
+        "nodes": [
+            {
+                "type": "M",
+                "ID": "MI0000070",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000115",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000438",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000069",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000489",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 3098,
+                "name": "hexokinase 1",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 89910,
+                "name": "ubiquitin protein ligase E3B",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 79728,
+                "name": "partner and localizer of BRCA2",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 6507,
+                "name": "solute carrier family 1 member 3",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 8195,
+                "name": "MKKS centrosomal shuttling protein",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D058186",
+                "name": "Acute Kidney Injury",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D051437",
+                "name": "Renal Insufficiency",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D007683",
+                "name": "Kidney Tubular Necrosis, Acute",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 581,
+                "name": "BCL2 associated X, apoptosis regulator",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 2551,
+                "name": "GA binding protein transcription factor subunit alpha",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 50604,
+                "name": "interleukin 20",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 598,
+                "name": "BCL2 like 1",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 3312,
+                "name": "heat shock protein family A (Hsp70) member 8",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D005832",
+                "name": "Genital Diseases, Male",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D004823",
+                "name": "Epididymitis",
+                "level": 0
+            }
+        ],
+        "edges": [
+            {
+                "source": "MI0000489",
+                "target": "MI0000070",
+                "type": "M-M",
+                "value": "0.5000"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000115",
+                "type": "M-M",
+                "value": "0.4988"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000438",
+                "type": "M-M",
+                "value": "0.0012"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000069",
+                "type": "M-M",
+                "value": "0.0000"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000489",
+                "type": "M-M",
+                "value": "0.0000"
+            },
+            {
+                "source": "MI0000489",
+                "target": 3098,
+                "type": "M-P",
+                "value": "0.2889"
+            },
+            {
+                "source": "MI0000489",
+                "target": 89910,
+                "type": "M-P",
+                "value": "0.2184"
+            },
+            {
+                "source": "MI0000489",
+                "target": 79728,
+                "type": "M-P",
+                "value": "0.0807"
+            },
+            {
+                "source": "MI0000489",
+                "target": 6507,
+                "type": "M-P",
+                "value": "0.0726"
+            },
+            {
+                "source": "MI0000489",
+                "target": 8195,
+                "type": "M-P",
+                "value": "0.0400"
+            },
+            {
+                "source": "D058186",
+                "target": "D058186",
+                "type": "D-D",
+                "value": "0.7972"
+            },
+            {
+                "source": "D058186",
+                "target": "D051437",
+                "type": "D-D",
+                "value": "0.1751"
+            },
+            {
+                "source": "D058186",
+                "target": "D007683",
+                "type": "D-D",
+                "value": "0.0277"
+            },
+            {
+                "source": "D058186",
+                "target": 581,
+                "type": "D-P",
+                "value": "0.9390"
+            },
+            {
+                "source": "D058186",
+                "target": 2551,
+                "type": "D-P",
+                "value": "0.0605"
+            },
+            {
+                "source": "D058186",
+                "target": 50604,
+                "type": "D-P",
+                "value": "0.0002"
+            },
+            {
+                "source": "D058186",
+                "target": 598,
+                "type": "D-P",
+                "value": "0.0001"
+            },
+            {
+                "source": "D058186",
+                "target": 3312,
+                "type": "D-P",
+                "value": "0.0000"
+            },
+            {
+                "source": "D007683",
+                "target": "D005832",
+                "type": "D-D",
+                "value": "0.7501"
+            },
+            {
+                "source": "D007683",
+                "target": "D004823",
+                "type": "D-D",
+                "value": "0.2499"
+            }
+        ]
+    },
+    "D017544": {
+        "pred": [
+            0.9767540693283081
+        ],
+        "nodes": [
+            {
+                "type": "M",
+                "ID": "MI0000070",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000115",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000438",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000069",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000489",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 3098,
+                "name": "hexokinase 1",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 89910,
+                "name": "ubiquitin protein ligase E3B",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 79728,
+                "name": "partner and localizer of BRCA2",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 6507,
+                "name": "solute carrier family 1 member 3",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 8195,
+                "name": "MKKS centrosomal shuttling protein",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D001014",
+                "name": "Aortic Aneurysm",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D017544",
+                "name": "Aortic Aneurysm, Abdominal",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 26298,
+                "name": "ETS homologous factor",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 2078,
+                "name": "ETS transcription factor ERG",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 63935,
+                "name": "phosphorylated CTD interacting factor 1",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 153090,
+                "name": "DAB2 interacting protein",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 91526,
+                "name": "ankyrin repeat domain 44",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D007238",
+                "name": "Infarction",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D000081011",
+                "name": "Hepatic Infarction",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D008107",
+                "name": "Liver Diseases",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D004392",
+                "name": "Dwarfism",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D050336",
+                "name": "Mulibrey Nanism",
+                "level": 0
+            }
+        ],
+        "edges": [
+            {
+                "source": "MI0000489",
+                "target": "MI0000070",
+                "type": "M-M",
+                "value": "0.5000"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000115",
+                "type": "M-M",
+                "value": "0.4988"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000438",
+                "type": "M-M",
+                "value": "0.0012"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000069",
+                "type": "M-M",
+                "value": "0.0000"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000489",
+                "type": "M-M",
+                "value": "0.0000"
+            },
+            {
+                "source": "MI0000489",
+                "target": 3098,
+                "type": "M-P",
+                "value": "0.2889"
+            },
+            {
+                "source": "MI0000489",
+                "target": 89910,
+                "type": "M-P",
+                "value": "0.2184"
+            },
+            {
+                "source": "MI0000489",
+                "target": 79728,
+                "type": "M-P",
+                "value": "0.0807"
+            },
+            {
+                "source": "MI0000489",
+                "target": 6507,
+                "type": "M-P",
+                "value": "0.0726"
+            },
+            {
+                "source": "MI0000489",
+                "target": 8195,
+                "type": "M-P",
+                "value": "0.0400"
+            },
+            {
+                "source": "D017544",
+                "target": "D001014",
+                "type": "D-D",
+                "value": "0.6821"
+            },
+            {
+                "source": "D017544",
+                "target": "D017544",
+                "type": "D-D",
+                "value": "0.3179"
+            },
+            {
+                "source": "D017544",
+                "target": 26298,
+                "type": "D-P",
+                "value": "0.9872"
+            },
+            {
+                "source": "D017544",
+                "target": 2078,
+                "type": "D-P",
+                "value": "0.0119"
+            },
+            {
+                "source": "D017544",
+                "target": 63935,
+                "type": "D-P",
+                "value": "0.0004"
+            },
+            {
+                "source": "D017544",
+                "target": 153090,
+                "type": "D-P",
+                "value": "0.0004"
+            },
+            {
+                "source": "D017544",
+                "target": 91526,
+                "type": "D-P",
+                "value": "0.0000"
+            },
+            {
+                "source": "D001014",
+                "target": "D007238",
+                "type": "D-D",
+                "value": "0.9287"
+            },
+            {
+                "source": "D001014",
+                "target": "D000081011",
+                "type": "D-D",
+                "value": "0.0713"
+            },
+            {
+                "source": "D001014",
+                "target": "D008107",
+                "type": "D-D",
+                "value": "2.0031e-15"
+            },
+            {
+                "source": "MI0000489",
+                "target": "D007238",
+                "type": "M-D",
+                "value": 1
+            },
+            {
+                "source": "MI0000489",
+                "target": "D008107",
+                "type": "M-D",
+                "value": 1
+            },
+            {
+                "source": "D017544",
+                "target": "D004392",
+                "type": "D-D",
+                "value": "0.9999"
+            },
+            {
+                "source": "D017544",
+                "target": "D050336",
+                "type": "D-D",
+                "value": "6.0086e-05"
+            }
+        ]
+    },
+    "D010024": {
+        "pred": [
+            0.9883665442466736
+        ],
+        "nodes": [
+            {
+                "type": "M",
+                "ID": "MI0000070",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000115",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000438",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000069",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000489",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 3098,
+                "name": "hexokinase 1",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 89910,
+                "name": "ubiquitin protein ligase E3B",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 79728,
+                "name": "partner and localizer of BRCA2",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 6507,
+                "name": "solute carrier family 1 member 3",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 8195,
+                "name": "MKKS centrosomal shuttling protein",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D010024",
+                "name": "Osteoporosis",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D001851",
+                "name": "Bone Diseases, Metabolic",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D015663",
+                "name": "Osteoporosis, Postmenopausal",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 581,
+                "name": "BCL2 associated X, apoptosis regulator",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 5341,
+                "name": "pleckstrin",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 220164,
+                "name": "docking protein 6",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 338382,
+                "name": "RAB7B, member RAS oncogene family",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 1432,
+                "name": "mitogen-activated protein kinase 14",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D006848",
+                "name": "Testicular Hydrocele",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D005832",
+                "name": "Genital Diseases, Male",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D057165",
+                "name": "Proteostasis Deficiencies",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D019578",
+                "name": "Multiple System Atrophy",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D000080874",
+                "name": "Synucleinopathies",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D020961",
+                "name": "Lewy Body Disease",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D010300",
+                "name": "Parkinson Disease",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D019636",
+                "name": "Neurodegenerative Diseases",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D008976",
+                "name": "Molluscum Contagiosum",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D016731",
+                "name": "Erythema Infectiosum",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D014777",
+                "name": "Virus Diseases",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D005077",
+                "name": "Exanthema Subitum",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D006561",
+                "name": "Herpes Simplex",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D012874",
+                "name": "Skin Diseases, Infectious",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D017193",
+                "name": "Skin Diseases, Viral",
+                "level": 0
+            }
+        ],
+        "edges": [
+            {
+                "source": "MI0000489",
+                "target": "MI0000070",
+                "type": "M-M",
+                "value": "0.5000"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000115",
+                "type": "M-M",
+                "value": "0.4988"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000438",
+                "type": "M-M",
+                "value": "0.0012"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000069",
+                "type": "M-M",
+                "value": "0.0000"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000489",
+                "type": "M-M",
+                "value": "0.0000"
+            },
+            {
+                "source": "MI0000489",
+                "target": 3098,
+                "type": "M-P",
+                "value": "0.2889"
+            },
+            {
+                "source": "MI0000489",
+                "target": 89910,
+                "type": "M-P",
+                "value": "0.2184"
+            },
+            {
+                "source": "MI0000489",
+                "target": 79728,
+                "type": "M-P",
+                "value": "0.0807"
+            },
+            {
+                "source": "MI0000489",
+                "target": 6507,
+                "type": "M-P",
+                "value": "0.0726"
+            },
+            {
+                "source": "MI0000489",
+                "target": 8195,
+                "type": "M-P",
+                "value": "0.0400"
+            },
+            {
+                "source": "D010024",
+                "target": "D010024",
+                "type": "D-D",
+                "value": "0.7448"
+            },
+            {
+                "source": "D010024",
+                "target": "D001851",
+                "type": "D-D",
+                "value": "0.2500"
+            },
+            {
+                "source": "D010024",
+                "target": "D015663",
+                "type": "D-D",
+                "value": "0.0052"
+            },
+            {
+                "source": "D010024",
+                "target": 581,
+                "type": "D-P",
+                "value": "0.9025"
+            },
+            {
+                "source": "D010024",
+                "target": 5341,
+                "type": "D-P",
+                "value": "0.0971"
+            },
+            {
+                "source": "D010024",
+                "target": 220164,
+                "type": "D-P",
+                "value": "0.0002"
+            },
+            {
+                "source": "D010024",
+                "target": 338382,
+                "type": "D-P",
+                "value": "0.0001"
+            },
+            {
+                "source": "D010024",
+                "target": 1432,
+                "type": "D-P",
+                "value": "0.0000"
+            },
+            {
+                "source": "D010024",
+                "target": "D006848",
+                "type": "D-D",
+                "value": "1.0000"
+            },
+            {
+                "source": "D010024",
+                "target": "D005832",
+                "type": "D-D",
+                "value": "1.0004e-10"
+            },
+            {
+                "source": "D001851",
+                "target": "D057165",
+                "type": "D-D",
+                "value": "0.7500"
+            },
+            {
+                "source": "D001851",
+                "target": "D019578",
+                "type": "D-D",
+                "value": "0.2493"
+            },
+            {
+                "source": "D001851",
+                "target": "D000080874",
+                "type": "D-D",
+                "value": "0.0007"
+            },
+            {
+                "source": "D001851",
+                "target": "D020961",
+                "type": "D-D",
+                "value": "6.9255e-06"
+            },
+            {
+                "source": "D001851",
+                "target": "D010300",
+                "type": "D-D",
+                "value": "1.3178e-07"
+            },
+            {
+                "source": "D001851",
+                "target": "D019636",
+                "type": "D-D",
+                "value": "9.7365e-15"
+            },
+            {
+                "source": "MI0000489",
+                "target": "D010300",
+                "type": "M-D",
+                "value": 1
+            },
+            {
+                "source": "D015663",
+                "target": "D008976",
+                "type": "D-D",
+                "value": "0.7546"
+            },
+            {
+                "source": "D015663",
+                "target": "D016731",
+                "type": "D-D",
+                "value": "0.2454"
+            },
+            {
+                "source": "D015663",
+                "target": "D014777",
+                "type": "D-D",
+                "value": "5.0429e-13"
+            },
+            {
+                "source": "D015663",
+                "target": "D005077",
+                "type": "D-D",
+                "value": "7.1359e-16"
+            },
+            {
+                "source": "D015663",
+                "target": "D006561",
+                "type": "D-D",
+                "value": "8.5894e-19"
+            },
+            {
+                "source": "D015663",
+                "target": "D012874",
+                "type": "D-D",
+                "value": "3.8973e-20"
+            },
+            {
+                "source": "D015663",
+                "target": "D017193",
+                "type": "D-D",
+                "value": "3.0540e-25"
+            }
+        ]
+    },
+    "D008107": {
+        "pred": [
+            0.9788636565208435
+        ],
+        "nodes": [
+            {
+                "type": "M",
+                "ID": "MI0000070",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000115",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000438",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000069",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "M",
+                "ID": "MI0000489",
+                "name": "Null",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 3098,
+                "name": "hexokinase 1",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 89910,
+                "name": "ubiquitin protein ligase E3B",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 79728,
+                "name": "partner and localizer of BRCA2",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 6507,
+                "name": "solute carrier family 1 member 3",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 8195,
+                "name": "MKKS centrosomal shuttling protein",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D008113",
+                "name": "Liver Neoplasms",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D017094",
+                "name": "Porphyrias, Hepatic",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D020518",
+                "name": "Focal Nodular Hyperplasia",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D004066",
+                "name": "Digestive System Diseases",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D014386",
+                "name": "Tuberculosis, Hepatic",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 6783,
+                "name": "sulfotransferase family 1E member 1",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 3589,
+                "name": "interleukin 11",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 3439,
+                "name": "interferon alpha 1",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 27306,
+                "name": "hematopoietic prostaglandin D synthase",
+                "level": 0
+            },
+            {
+                "type": "P",
+                "ID": 3447,
+                "name": "interferon alpha 13",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D005351",
+                "name": "Fibromatosis, Gingival",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D005886",
+                "name": "Gingival Hypertrophy",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D005885",
+                "name": "Gingival Hyperplasia",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D019214",
+                "name": "Gingival Overgrowth",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D005882",
+                "name": "Gingival Diseases",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D008265",
+                "name": "Macrostomia",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D002971",
+                "name": "Cleft Lip",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D002972",
+                "name": "Cleft Palate",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D014681",
+                "name": "Velopharyngeal Insufficiency",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D009056",
+                "name": "Mouth Abnormalities",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D018640",
+                "name": "Stomatognathic System Abnormalities",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D000074009",
+                "name": "Tubular Sweat Gland Adenomas",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D006607",
+                "name": "Adenoma, Sweat Gland",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D002908",
+                "name": "Chronic Disease",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D054437",
+                "name": "Myelodysplastic-Myeloproliferative Diseases",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D007951",
+                "name": "Leukemia, Myeloid",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D015477",
+                "name": "Leukemia, Myelomonocytic, Chronic",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D058387",
+                "name": "Candidemia",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D016469",
+                "name": "Fungemia",
+                "level": 0
+            },
+            {
+                "type": "D",
+                "ID": "D058365",
+                "name": "Candidiasis, Invasive",
+                "level": 0
+            }
+        ],
+        "edges": [
+            {
+                "source": "MI0000489",
+                "target": "MI0000070",
+                "type": "M-M",
+                "value": "0.5000"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000115",
+                "type": "M-M",
+                "value": "0.4988"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000438",
+                "type": "M-M",
+                "value": "0.0012"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000069",
+                "type": "M-M",
+                "value": "0.0000"
+            },
+            {
+                "source": "MI0000489",
+                "target": "MI0000489",
+                "type": "M-M",
+                "value": "0.0000"
+            },
+            {
+                "source": "MI0000489",
+                "target": 3098,
+                "type": "M-P",
+                "value": "0.2889"
+            },
+            {
+                "source": "MI0000489",
+                "target": 89910,
+                "type": "M-P",
+                "value": "0.2184"
+            },
+            {
+                "source": "MI0000489",
+                "target": 79728,
+                "type": "M-P",
+                "value": "0.0807"
+            },
+            {
+                "source": "MI0000489",
+                "target": 6507,
+                "type": "M-P",
+                "value": "0.0726"
+            },
+            {
+                "source": "MI0000489",
+                "target": 8195,
+                "type": "M-P",
+                "value": "0.0400"
+            },
+            {
+                "source": "D008107",
+                "target": "D008113",
+                "type": "D-D",
+                "value": "0.7500"
+            },
+            {
+                "source": "D008107",
+                "target": "D017094",
+                "type": "D-D",
+                "value": "0.1981"
+            },
+            {
+                "source": "D008107",
+                "target": "D020518",
+                "type": "D-D",
+                "value": "0.0502"
+            },
+            {
+                "source": "D008107",
+                "target": "D004066",
+                "type": "D-D",
+                "value": "0.0011"
+            },
+            {
+                "source": "D008107",
+                "target": "D014386",
+                "type": "D-D",
+                "value": "0.0003"
+            },
+            {
+                "source": "D008107",
+                "target": 6783,
+                "type": "D-P",
+                "value": "0.4218"
+            },
+            {
+                "source": "D008107",
+                "target": 3589,
+                "type": "D-P",
+                "value": "0.3182"
+            },
+            {
+                "source": "D008107",
+                "target": 3439,
+                "type": "D-P",
+                "value": "0.1168"
+            },
+            {
+                "source": "D008107",
+                "target": 27306,
+                "type": "D-P",
+                "value": "0.1030"
+            },
+            {
+                "source": "D008107",
+                "target": 3447,
+                "type": "D-P",
+                "value": "0.0177"
+            },
+            {
+                "source": "D008113",
+                "target": "D005351",
+                "type": "D-D",
+                "value": "0.9989"
+            },
+            {
+                "source": "D008113",
+                "target": "D005886",
+                "type": "D-D",
+                "value": "0.0010"
+            },
+            {
+                "source": "D008113",
+                "target": "D005885",
+                "type": "D-D",
+                "value": "0.0001"
+            },
+            {
+                "source": "D008113",
+                "target": "D019214",
+                "type": "D-D",
+                "value": "5.3246e-08"
+            },
+            {
+                "source": "D008113",
+                "target": "D005882",
+                "type": "D-D",
+                "value": "1.6482e-16"
+            },
+            {
+                "source": "D017094",
+                "target": "D008265",
+                "type": "D-D",
+                "value": "0.7501"
+            },
+            {
+                "source": "D017094",
+                "target": "D002971",
+                "type": "D-D",
+                "value": "0.2499"
+            },
+            {
+                "source": "D017094",
+                "target": "D002972",
+                "type": "D-D",
+                "value": "2.1683e-05"
+            },
+            {
+                "source": "D017094",
+                "target": "D014681",
+                "type": "D-D",
+                "value": "1.1287e-06"
+            },
+            {
+                "source": "D017094",
+                "target": "D009056",
+                "type": "D-D",
+                "value": "1.0323e-13"
+            },
+            {
+                "source": "D017094",
+                "target": "D018640",
+                "type": "D-D",
+                "value": "1.3621e-14"
+            },
+            {
+                "source": "D017094",
+                "target": "D005351",
+                "type": "D-D",
+                "value": "6.7307e-15"
+            },
+            {
+                "source": "D020518",
+                "target": "D000074009",
+                "type": "D-D",
+                "value": "0.9999"
+            },
+            {
+                "source": "D020518",
+                "target": "D006607",
+                "type": "D-D",
+                "value": "5.5607e-05"
+            },
+            {
+                "source": "D004066",
+                "target": "D002908",
+                "type": "D-D",
+                "value": "0.7500"
+            },
+            {
+                "source": "D004066",
+                "target": "D054437",
+                "type": "D-D",
+                "value": "0.2500"
+            },
+            {
+                "source": "D004066",
+                "target": "D007951",
+                "type": "D-D",
+                "value": "4.9470e-14"
+            },
+            {
+                "source": "D004066",
+                "target": "D015477",
+                "type": "D-D",
+                "value": "3.8101e-22"
+            },
+            {
+                "source": "D014386",
+                "target": "D058387",
+                "type": "D-D",
+                "value": "0.6684"
+            },
+            {
+                "source": "D014386",
+                "target": "D016469",
+                "type": "D-D",
+                "value": "0.2500"
+            },
+            {
+                "source": "D014386",
+                "target": "D058365",
+                "type": "D-D",
+                "value": "0.0816"
+            }
+        ]
+    }
+}

@@ -7,6 +7,8 @@ import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 import { createPinia } from 'pinia';
+import piniaPluginPersistedstate from 'pinia-plugin-persistedstate'
+import axios from 'axios';
 // import Antd from 'ant-design-vue';
 // import 'ant-design-vue/dist/reset.css';
 
@@ -19,6 +21,8 @@ for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
 app.use(ElementPlus)
 
 const pinia = createPinia();
+pinia.use(piniaPluginPersistedstate)
+// pinia.reset() 
 app.use(pinia);
 // app.use(Antd)
 

@@ -13,29 +13,18 @@
   import data from '@/assets/data/smaller_data'
   import miniHeatMap from "./miniHeatMap.vue";
   import { useUserStore } from '@/stores/counter'
+  import { storeToRefs } from 'pinia'
 
   const popupVisible = ref(false); // 弹出窗口的可见性
   const popupData = ref(null); // 弹出窗口的数据
   const heatMapRef = ref();
   var selectedRect = null;
+  const highlight_color = "#39FF14"
+  const over_color = "red"
   
   onMounted(()=>{
     init();
   })
-  
-  // function mySlice(array, interval) {
-  //   var new_array = []
-  //   var len = 0
-  //   for(var i = 0; i < array.length; i++) {
-  //     if(i % interval == 0) {
-  //       new_array[len] = array[i]
-  //       len ++
-  //     }
-  //   }
-  //   return new_array
-  // }
-
-
 
   function handleMouseOut() {
     if (selectedRect !== this) {
@@ -46,11 +35,7 @@
     user.disease_index = -1;
     user.mirna_index = -1;
   }
-    
-  // function closePopup() {
-  //   popupVisible.value = false; // 关闭弹出窗口
-  //   popupData.value = null; // 清空弹出窗口的数据
-  // }
+
 
   function init() {
     
@@ -60,10 +45,6 @@
     const marginRight = 5;
     const marginBottom = 5;
     const marginLeft = 5;
-    // const rowHeight = 10;
-    // const colWidth = 10;
-    // const width = colWidth * data.disease.length + marginLeft + marginRight;
-    // const height = rowHeight * data.mirna.length + marginTop + marginBottom;
     const width = heatMapRef.value.clientWidth;
     const height = heatMapRef.value.clientHeight;
     const legendMargin = 2;
@@ -71,14 +52,15 @@
     const legendMarginTop = 5;
     const legendRectHeight = 8;
     const data_max = 300;
-    // console.log("size"+data.values.length)
-
-    // const interval = 5
-    // const smallx = mySlice(data.disease, interval*3)
-    // const smally = mySlice(data.mirna, interval)
-    // console.log("smallx"+smallx)
-    // console.log("smally"+smally)
+    const max_x = data.disease.length;
+    const max_y = data.mirna.length;
   
+    const user = useUserStore()
+    const { disease_index, mirna_index, fix, fix_disease, fix_mirna } = storeToRefs(user)
+    var select_disease = false
+    var select_mirna = false
+    var init = true
+    
     const svg = d3
         .select("#heatMap")
         .append("svg")
@@ -93,9 +75,7 @@
       .domain(data.disease)
       .range([marginLeft, width - marginRight])
   
-    // console.log(x(data.disease[0]))
-    // console.log(marginLeft)
-    // console.log(x.bandwidth())
+
   
     const y = d3.scaleBand()
       .domain(data.mirna)
@@ -132,18 +112,34 @@
       .selectAll("g")
       .data(data.values)
       .join("g")
-      .attr("transform", (d, i) => `translate(0,${y(data.mirna[i])})`)
+      .attr("transform", (d, i)=> `translate(0,${y(data.mirna[i])})`)
       .selectAll(".heatRect")
       .data(d => d)
       .join("rect")
       .attr("class", "heatRect")
-      .attr("x", (d, i) => x(data.disease[i]) + 1)
+      .attr("x", (d, i)=> x(data.disease[i]) + 1)
       .attr("width", x.bandwidth()-1)
       .attr("height", y.bandwidth()-1)
       .attr("fill", d => d === 0? "#eee" : color(d))
       .append("title")
         // .text((d, i) => `${format(d)} per 100,000 people in ${data.years[i]}`);
     
+
+    if(fix.value) {
+      svg.selectAll(".heatRect")
+        .each(function(d, i) {
+          if(i == fix_mirna.value* max_x + fix_disease.value)
+            selectedRect = this
+        })
+    }
+
+    if(selectedRect !== null) {
+      d3.select(selectedRect)
+        .attr("stroke", highlight_color)
+        .attr("stroke-width", 1)
+    }
+    
+
     //绘制图例
     var legend = svg.append("g")
       .attr("class", "legend")
@@ -164,12 +160,6 @@
       .attr("transform", "translate(" + "0" + ", " + (legendRectHeight+1.5) + ")")
       .call(legendAxis);
 
-    // 添加图例标题
-    // legend.append("text")
-    //   .attr("class", "legend-title")
-    //   .attr("x", 0)
-    //   .attr("y", -10)
-    //   .text("Legend");
 
     console.log("colortick"+color.ticks(5))
     // 添加图例矩形
@@ -259,7 +249,6 @@
           user.fix_mirna = index_m;
         }
         
-        
         if (selectedRect == this) {
           d3.select(selectedRect)
             .attr("stroke", "none");
@@ -275,8 +264,7 @@
         selectedRect = this;
         // 给当前选中的矩形添加高亮的边框
         d3.select(this)
-          // .attr("fill", "red")
-          .attr("stroke", "blue")
+          .attr("stroke", highlight_color)
           .attr("stroke-width", 1)
         // console.log(user.disease_index)
       })
