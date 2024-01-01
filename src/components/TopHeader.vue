@@ -7,7 +7,7 @@ import SearchBox from './SearchBox.vue'
     <div class="header-content">
       <span>MDA-EXPLOER</span>
       <div class="right-align">
-        <SearchBox />
+        <!-- <SearchBox /> -->
       </div>
     </div>
   </div>

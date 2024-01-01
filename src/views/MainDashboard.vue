@@ -17,7 +17,8 @@
     </div>
     
     <!-- <div class="dashboard__item chart explanation-view">This is Explanation</div> -->
-    <div class="dashboard__item information-view">This is Relevant Information
+    <div class="dashboard__item information-view">
+      Relevant Information
     <MiRNA></MiRNA>
     <!-- <Disease></Disease> -->
     </div>
@@ -30,12 +31,8 @@
 import HeatMap from './HeatMap.vue';
 import NodeLinkGraph from './NodeLinkGraph.vue';
 import MyTable from './MyTable.vue';
-<<<<<<< HEAD
-import MiRNA from './MiRNA.vue';
-import Disease from './Disease.vue';
-=======
 import miniHeatMap from './miniHeatMap.vue';
->>>>>>> b40c9e4ed78bbd66023fa573c50242a4522a4d40
+import MiRNA from './MiRNA.vue';
 </script>
 
 <style scoped>

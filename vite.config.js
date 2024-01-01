@@ -1,12 +1,16 @@
 import { fileURLToPath, URL } from 'node:url'
-
+import dynamicImport from 'vite-plugin-dynamic-import';
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import UnoCSS from 'unocss/vite'
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/MDA-Explorer/',
+  //环境配置 'development'|'production'
+  mode: 'production',
   plugins: [
     // ...
+    dynamicImport(),
     [UnoCSS(), vue()]
   ],
 

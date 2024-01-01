@@ -17,6 +17,7 @@ import { onMounted, ref, watch } from "vue";
 // import graph_data from '@/assets/data/old_graph'
 // import graph_data from '@/assets/data/example3'
 import { useGraphStore } from '@/stores/graph'
+import { useInfoStore } from '@/stores/info'
 import { storeToRefs } from 'pinia'
 
 var graph_data
@@ -32,9 +33,13 @@ var content2 = ref()
 
 const user = useGraphStore()
 const { graph_disease, graph_mirna } = storeToRefs(user)
+
+const info_user = useInfoStore()
+// const { type, id } = storeToRefs(info_user)
+
 var target_disease = graph_disease.value
 var target_mirna = graph_mirna.value
-var path = '/public/graph_data/'+target_mirna+'.json'
+var path = '../assets/graph_data/'+target_mirna+'.json'
 
 const nodeR = 7
 
@@ -52,7 +57,7 @@ onMounted(()=>{
     console.log("watch")
     target_disease = graph_disease.value
     target_mirna = graph_mirna.value
-    path = '/public/graph_data/'+target_mirna+'.json'
+    path = '../assets/graph_data/'+target_mirna+'.json'
     if(target_disease != -1){
     import(path).then((data) => {
       //在加载完成后可以处理文件内容
@@ -73,6 +78,8 @@ onMounted(()=>{
 })
 
 function init() {
+    var scale = 1
+    const svgContainer = document.getElementById('nodelink');
     const width = containerRef.value.clientWidth;
     const height = containerRef.value.clientHeight;
     // console.log("width"+width)
@@ -89,15 +96,27 @@ function init() {
     var newLink = { source: target_mirna, target: target_disease , value:pred, type:"M-D"};
     links.push(newLink);
 
+    var di_exist = false;
+    var mi_exist = false;
+    nodes.forEach(function(node) {
+      if(node.ID == target_disease)
+        di_exist = true;
+      if(node.ID == target_mirna)
+        mi_exist = true;
+    })
     var disease_node = { type: 'D', ID: target_disease, name: null, level: 0}
     var mirna_node = {type: 'M', ID: target_mirna, name: null, level: 0}
-    nodes.push(disease_node)
-    nodes.push(mirna_node)
+    if(!di_exist)
+      nodes.push(disease_node)
+    if(!mi_exist)
+      nodes.push(mirna_node)
 
     const node_color = d3.scaleOrdinal(types, d3.schemeCategory10);
     const link_color = "#999";
     var pre_color;
-    
+    var selectedNode = null
+    const highlight_color = "red"
+    const highlight_width = 2
 
     // console.log(nodes)
     //原来的
@@ -110,7 +129,7 @@ function init() {
 
     const simulation = d3.forceSimulation(nodes)
       .force("link", d3.forceLink(links).id(d => d.ID))
-      .force("charge", d3.forceManyBody().strength(-400))
+      .force("charge", d3.forceManyBody().strength(-200))
       .force("x", d3.forceX())
       .force("y", d3.forceY());
 
@@ -126,6 +145,8 @@ function init() {
     }
     svg.selectAll("*").remove();
     
+    
+
     //添加图例
     var data_legend = [
       {
@@ -144,7 +165,7 @@ function init() {
 
     const legendGroup = svg.append("g")
       .attr("class", "legend")
-      .attr("transform", "translate("+(-width / 2)+","+(-height / 2)+")"); // 设置图例组的位置
+      .attr("transform", "translate("+(-width / 2)+","+(-height / 2.1)+")"); // 设置图例组的位置
 
     // 添加图例项
     const legendItems = legendGroup.selectAll(".legend-item")
@@ -235,9 +256,34 @@ function init() {
       })
       .on("mouseout", function(event, d) {
         node_visible.value = false;
-        d3.select(this)
+        if (selectedNode !== this) {
+          d3.select(this)
           .attr("stroke", "none")
+        }
       })
+      .on("click", function(event, d) {
+        info_user.type = d.type
+        info_user.id = d.ID
+        console.log("info_user.type"+info_user.type)
+
+        if (selectedNode == this) {
+          d3.select(selectedNode)
+            .attr("stroke", "none");
+            selectedNode = null;
+          return;
+        }
+        if (selectedNode) {
+          // 移除之前选中的矩形的边框
+          d3.select(selectedNode)
+            .attr("stroke", "none");
+        }
+
+        selectedNode = this;
+        // 给当前选中的矩形添加高亮的边框
+        d3.select(this)
+          .attr("stroke", highlight_color)
+          .attr("stroke-width", highlight_width)
+    })
 
     node.append("text")
       .attr("x", 8)
@@ -263,8 +309,13 @@ function init() {
     //   .text(function(d) { return d.value; }); // 根据数据设置文本内容
 
     simulation.on("tick", () => {
-        link.attr("d", linkArc);
-        node.attr("transform", d => `translate(${d.x},${d.y})`);
+      // nodes.forEach(node => {
+      //   node.x = Math.max(nodeR, Math.min(width - nodeR, node.x));
+      //   node.y = Math.max(nodeR, Math.min(height - nodeR, node.y));
+      // });
+        
+      link.attr("d", linkArc);
+      node.attr("transform", d => `translate(${d.x},${d.y})`);
     });
 
     d3.invalidation.then(() => simulation.stop());

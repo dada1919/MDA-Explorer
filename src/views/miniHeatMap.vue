@@ -185,12 +185,6 @@
       .on("click", handleClick)
 
     function handleMouseOver(event, d) {
-      
-      if (selectedRect == this)
-          return;
-      d3.select(this)
-        .attr("stroke", over_color)
-        .attr("stroke-width", highlight_width)
 
       const xy = d3.pointer(event, svg.node());
       const xv = xy[0]
@@ -202,6 +196,12 @@
 
       buttonRef.value = event.currentTarget;
       visible.value = true;
+
+      if (selectedRect == this)
+          return;
+      d3.select(this)
+        .attr("stroke", over_color)
+        .attr("stroke-width", highlight_width)
     }
 
     function handleMouseOut(event, d) {
@@ -229,7 +229,7 @@
       // 给当前选中的矩形添加高亮的边框
       d3.select(this)
         .attr("stroke", highlight_color)
-        .attr("stroke-width", highlight_color)
+        .attr("stroke-width", highlight_width)
       // console.log(user.disease_index)
 
       const xy = d3.pointer(event, svg.node());
