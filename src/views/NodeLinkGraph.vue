@@ -19,6 +19,7 @@ import { onMounted, ref, watch } from "vue";
 import { useGraphStore } from '@/stores/graph'
 import { useInfoStore } from '@/stores/info'
 import { storeToRefs } from 'pinia'
+import axios from 'axios';
 
 var graph_data
 const containerRef = ref()
@@ -42,29 +43,47 @@ var target_mirna = graph_mirna.value
 var path = '../assets/graph_data/'+target_mirna+'.json'
 
 const nodeR = 7
+const baseUrl = window.location.origin;
 
 onMounted(()=>{
   // console.log("path"+path)
 
   if(target_disease != -1){
-    import(path).then((data) => {
-      //在加载完成后可以处理文件内容
-      graph_data = data[target_disease]
-      init();
-  });}
+    axios.get(`${baseUrl}/graph_data/${target_mirna}.json`)
+      .then(response => {
+        graph_data = response.data[target_disease]
+        init();
+      })
+      .catch(error => {
+        // 处理错误
+      });
+  //   import(path).then((data) => {
+  //     //在加载完成后可以处理文件内容
+  //     graph_data = data[target_disease]
+  //     init();
+  // });
+}
 
   watch([graph_disease, graph_mirna], (newValue, oldValue) => {
     console.log("watch")
     target_disease = graph_disease.value
     target_mirna = graph_mirna.value
     path = '../assets/graph_data/'+target_mirna+'.json'
-    if(target_disease != -1){
-    import(path).then((data) => {
-      //在加载完成后可以处理文件内容
-      graph_data = data[target_disease]
-      init();
+    axios.get(`${baseUrl}/graph_data/${target_mirna}.json`)
+      .then(response => {
+        graph_data = response.data[target_disease]
+        init();
+      })
+      .catch(error => {
+        // 处理错误
     });
-    }
+    // if(target_disease != -1){
+    // import(path).then((data) => {
+    //   //在加载完成后可以处理文件内容
+    //   graph_data = data[target_disease]
+    //   init();
+    // });
+    // }
   })
 
   
