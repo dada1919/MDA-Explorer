@@ -249,7 +249,12 @@ function init() {
       .attr("id", function(d, i) { return "arc-" + i; }) // 唯一的ID用于文本Path引用
       .attr("stroke", function(d) {
         // console.log("d"+JSON.stringify(d));
-        return (d.source.ID == target_mirna && d.target.ID == target_disease)? "#FF0000" :"#999";
+        if(d.source.ID == target_mirna && d.target.ID == target_disease)
+          return "#FF0000"
+        if(d.value == 1 && d.source.ID == target_mirna) {
+          return "pink"
+        }
+        return "#999";
       })
       .attr("stroke-width", function(d, i) { return Math.max(1, 5 * d.value) })
       .attr("stroke-opacity", 0.6)
