@@ -26,7 +26,7 @@
   var data = {'values': '', 'disease':'', 'mirna':''}
 
   const miRef = ref()
-  const unit = 40 //矩阵缩放单位
+  const unit = 50 //矩阵缩放单位
   const tooltip = ref()
   const visible = ref(false);  //控制tooltip显示或隐藏
   const buttonRef = ref(null);  //鼠标选中的元素

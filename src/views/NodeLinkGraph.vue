@@ -343,10 +343,10 @@ function init() {
 }
 
 function linkArc(d) {
-  const r = Math.hypot(d.target.x - d.source.x, d.target.y - d.source.y);
+  const r = Math.hypot(d.source.x - d.target.x, d.source.y - d.target.y);
   return `
-    M${d.source.x},${d.source.y}
-    A${r},${r} 0 0,1 ${d.target.x},${d.target.y}
+    M${d.target.x},${d.target.y}
+    A${r},${r} 0 0,1 ${d.source.x},${d.source.y}
   `;
 }
 
