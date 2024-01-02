@@ -1,6 +1,13 @@
 <template>
   <!-- <div id="legend" class="sidebar" ref = "legendRef"></div> -->
-  <div id="nodelink" class="container" ref="containerRef"></div>
+  <!-- <div class="flex-container">  -->
+    <!-- <div class="slider-demo-block">
+      <el-slider v-model="slider_value" vertical height="200px" />
+    </div> -->    
+  <!-- </div> -->
+  
+  <div id="nodelink" class="container" ref="containerRef"> </div>
+  
   <el-tooltip ref="tooltip" placement="right" v-model:visible="visible" :virtual-ref="linkRef" virtual-triggering effect="light">
     <template #content> {{content}} </template>
   </el-tooltip>
@@ -31,6 +38,7 @@ const node_tooltip = ref()
 const node_visible = ref(false);
 var nodeRef = ref(null)
 var content2 = ref()
+const slider_value = ref(50)
 
 const user = useGraphStore()
 const { graph_disease, graph_mirna } = storeToRefs(user)
@@ -97,7 +105,8 @@ onMounted(()=>{
 })
 
 function init() {
-    var scale = 1
+    var scale = 50/slider_value
+
     const svgContainer = document.getElementById('nodelink');
     const width = containerRef.value.clientWidth;
     const height = containerRef.value.clientHeight;
@@ -153,6 +162,7 @@ function init() {
       .force("y", d3.forceY());
 
     var svg = d3.select("#nodelink").select("svg")
+
     if(svg.size() === 0) {
       svg = d3
         .select("#nodelink")
@@ -163,8 +173,17 @@ function init() {
         .attr("style", "max-width: 100%; height: auto; font: 12px sans-serif;");
     }
     svg.selectAll("*").remove();
-    
-    
+
+    const container =svg.append("g");
+    const zoom = d3.zoom()
+      .scaleExtent([0.1, 1]) // 设置缩放的范围
+      .on("zoom", zoomed);
+
+    container.call(zoom)
+
+    function zoomed(event) {
+      container.attr("transform", event.transform);
+    }
 
     //添加图例
     var data_legend = [
@@ -207,7 +226,7 @@ function init() {
       .attr("y", 10)
       .text(d => d.name);
 
-    svg.append("defs").selectAll("marker")
+    container.append("defs").selectAll("marker")
       .data(link_types)
       .join("marker")
       .attr("id", d => `arrow-${d}`)
@@ -222,7 +241,7 @@ function init() {
       .attr("fill", link_color)
       .attr("d", "M0,-5L10,0L0,5");
 
-    const link = svg.append("g")
+    const link = container.append("g")
       .attr("fill", "none")
       .selectAll("path")
       .data(links)
@@ -252,7 +271,7 @@ function init() {
         visible.value = false;
       })
 
-    const node = svg.append("g")
+    const node = container.append("g")
       .attr("stroke-linecap", "round")
       .attr("stroke-linejoin", "round")
       .selectAll("g")
@@ -377,8 +396,9 @@ const drag = simulation => {
 </script>
 
 <style scoped>
+
 .container{
-  width: 100%;
   height: 100%;
+  width: 100%;
 }
 </style>
